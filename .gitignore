@@ -1,3 +1,7 @@
+# Users
+.vscode
+test.cpp
+
 # Prerequisites
 *.d
 
