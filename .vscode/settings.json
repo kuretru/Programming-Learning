@@ -1,0 +1,13 @@
+{
+    "files.exclude": {
+        "**/*.out": true,
+        "**/*.out.dSYM": true
+    },
+    "files.associations": {
+        "vector": "cpp",
+        "__split_buffer": "cpp",
+        "string": "cpp"
+    },
+    "powermode.enabled": true,
+    "powermode.presets": "particles"
+}
