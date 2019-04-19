@@ -1,10 +1,14 @@
+# VSCode configuration
+.VSCode
+*.code-workspace
+
 # General
 .DS_Store
 .AppleDouble
 .LSOverride
 
 # Icon must end with two \r
-Icon
+Icon
 
 # Thumbnails
 ._*
