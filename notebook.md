@@ -18,6 +18,12 @@
 
 #### stack 栈
 
-* 入栈：`stack.push()`
-* 出栈：`stack.pop()`(仅出栈，不返回)
-* 栈顶元素：`stack.top()`
+* 入栈：`void stack.push(ELEMENT)`
+* 出栈：`void stack.pop()`
+* 栈顶元素：`ELEMENT = stack.top()`
+
+#### queue 队列
+
+* 入队：`void queue.push(ELEMENT)`
+* 出队：`void queue.pop()`
+* 队首元素：`ELEMENT = queue.front()`
