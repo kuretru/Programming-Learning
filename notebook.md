@@ -1,6 +1,6 @@
 # 呉真的PAT笔记本
 
-## C++ STL
+## C++ 基础
 
 ### 常量
 
@@ -11,7 +11,10 @@
 ### 数学函数
 
 * 绝对值：`abs()`
-* 排序：`std::sort(data.begin(), data.end())`
+* 两数最大值：`std::max(left, right)`
+* 排序：`std::sort(data.begin(), data.end())` in \<algorithm\>
+
+## C++ STL
 
 ### string 字符串
 
@@ -51,3 +54,22 @@
 * 访问元素：`value = map[key]`
 * 是否存在：`int map.count(KEY)`，返回操作个数，1即为存在
 * 迭代器：`iter->first`方位key值；`iter->second`方位value值
+
+## 调试技巧
+
+### 输出二叉树
+
+逆时针旋转90度后输出二叉树
+
+``` c++
+void debug(node *head, int level)
+{
+    if (!head)
+        return;
+    debug(head->right, level + 1);
+    for (int i = 0; i < level; i++)
+        printf("    ");
+    printf("%3d\n", head->data);
+    debug(head->left, level + 1);
+}
+```
