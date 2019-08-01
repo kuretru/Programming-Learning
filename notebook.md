@@ -2,6 +2,17 @@
 
 ## C++ STL
 
+### 常量
+
+* int最大值：`INT32_MAX`
+* int最小值：`INT32_MIN`
+* 关闭stdio同步：`std::ios::sync_with_stdio(false)`
+
+### 数学函数
+
+* 绝对值：`abs()`
+* 排序：`std::sort(data.begin(), data.end())`
+
 ### string 字符串
 
 * 获取字符串中的某个字符：`char c = text[i]`
@@ -12,7 +23,8 @@
 
 #### vector 顺序表
 
-* 二维数组初始化`vector<vector<int> data(SIZE, vector<int>(SIZE, 0))`
+* 二维数组初始化：`vector<vector<int> data(SIZE, vector<int>(SIZE, 0))`
+* 二维数组重新初始化：`data.resize(SIZE, vector<int>(SIZE, 0))`
 * 插入：`data.pushback()`
 * 迭代器中判断最后一个：`iter == data.end() - 1`
 
