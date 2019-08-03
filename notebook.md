@@ -47,13 +47,18 @@
 
 #### set 红黑树
 
+* 插入元素：`set.insert(ELEMENT)`
+* 删除元素：`set.erase(ELEMENT)`，返回操作个数，1即为删除成功
+* 是否存在：`int set.count(ELEMENT)`，返回操作个数，1即为存在
+
 #### map 红黑树
 
 * 插入元素：`map[key] = value`，覆盖插入
+* 插入元素：`map.insert(std::pair<K_TYPE, V_TYPE>(key, value))`
 * 删除元素：`int map.erase(KEY)`，返回操作个数，1即为删除成功
 * 访问元素：`value = map[key]`
 * 是否存在：`int map.count(KEY)`，返回操作个数，1即为存在
-* 迭代器：`iter->first`方位key值；`iter->second`方位value值
+* 迭代器：`iter->first`即为key值；`iter->second`即为value值
 
 ## 调试技巧
 
