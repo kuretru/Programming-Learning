@@ -5,6 +5,12 @@ struct path
 {
     int distance = INT32_MAX;
     int cost = INT32_MAX;
+    bool operator<(const path y) const
+    {
+        if (distance == y.distance)
+            return cost < y.cost;
+        return distance < y.distance;
+    }
 };
 
 struct auxiliary
@@ -13,13 +19,6 @@ struct auxiliary
     bool used = false;
 };
 
-bool compare(path x, path y)
-{
-    if (x.distance == y.distance)
-        return x.cost < y.cost;
-    return x.distance < y.distance;
-}
-
 int findMin(std::vector<auxiliary> data)
 {
     int result = -1;
@@ -27,7 +26,7 @@ int findMin(std::vector<auxiliary> data)
     {
         if (data[i].used)
             continue;
-        if (result == -1 || compare(data[i].p, data[result].p))
+        if (result == -1 || data[i].p < data[result].p)
             result = i;
     }
     return result;
@@ -63,7 +62,7 @@ int main()
             path p = result[min].p;
             p.distance += data[min][i].distance;
             p.cost += data[min][i].cost;
-            if (compare(p, result[i].p))
+            if (p < result[i].p)
                 result[i].p = p;
         }
     }
