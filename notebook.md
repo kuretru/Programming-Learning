@@ -14,6 +14,15 @@
 * 两数最大值：`std::max(left, right)`
 * 排序：`std::sort(data.begin(), data.end())` in \<algorithm\>
 
+### 重写运算符
+
+```c++
+bool operator<(const student &y) const
+{
+    return grade > y.grade;
+}
+```
+
 ## C++ STL
 
 ### string 字符串
