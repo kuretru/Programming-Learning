@@ -13,6 +13,8 @@
 * 绝对值：`abs()`
 * 两数最大值：`std::max(left, right)`
 * 排序：`std::sort(data.begin(), data.end())` in \<algorithm\>
+* 数组最大值：`*std::max_element(data.begin(), data.end());` in \<algorithm\>
+* 迭代器索引：`std::distance(data.begin(), iter)`
 
 ### 重写运算符
 
