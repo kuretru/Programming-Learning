@@ -3,14 +3,15 @@
 #include <iostream>
 #include <vector>
 
-void algorithm_sort(std::vector<int> &data); // <algorithm>库实现的排序
-void bubble_sort(std::vector<int> &data);    // 冒泡排序
-void insertion_sort(std::vector<int> &data); // 插入排序
-void shell_sort(std::vector<int> &data);     // 希尔排序
+void algorithm_sort(std::vector<int> &data); // <algorithm>库实现的排序 36ms 807ms
+void bubble_sort(std::vector<int> &data);    // 冒泡排序 TLE*3
+void insertion_sort(std::vector<int> &data); // 插入排序 3201ms
+void shell_sort(std::vector<int> &data);     // 希尔排序 35ms 10602ms
+void selection_sort(std::vector<int> &data); // 选择排序 TLE*5
 
 typedef void (*sort_interface)(std::vector<int> &data); // 排序接口
 sort_interface sort = shell_sort;                       // 指定排序实现
-bool debug = true;                                     // 调试开关
+bool debug = true;                                      // 调试开关
 
 int main()
 {
@@ -36,8 +37,8 @@ int main()
     sort(data);
     if (debug)
     {
-        double seconds = (clock() - start) * 1.0 / CLOCKS_PER_SEC;
-        std::cout << "spend " << seconds << " seconds" << std::endl;
+        double ms = (clock() - start) * 1.0 / CLOCKS_PER_SEC * 1000;
+        std::cout << "spend " << ms << " milliseconds" << std::endl;
         int errors = 0;
         for (int i = 0; i < count; i++)
             if (data[i] != standard[i])
@@ -104,5 +105,15 @@ void shell_sort(std::vector<int> &data)
                 data[j] = data[j - d];
             data[j] = tmp;
         }
+    }
+}
+
+void selection_sort(std::vector<int> &data)
+{
+    for (auto iter = data.begin(); iter != data.end(); iter++)
+    {
+        auto min = std::min_element(iter, data.end());
+        if (iter != min)
+            std::swap(*iter, *min);
     }
 }
