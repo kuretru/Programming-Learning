@@ -10,6 +10,7 @@
 
 ### 数学函数
 
+* 随机数：`rand()`
 * 绝对值：`abs()`
 * 两数最大值：`std::max(left, right)`
 * 排序：`std::sort(data.begin(), data.end())` in \<algorithm\>
