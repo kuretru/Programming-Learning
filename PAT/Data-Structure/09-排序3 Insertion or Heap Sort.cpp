@@ -45,6 +45,7 @@ std::vector<int> heap_sort(std::vector<int> data, std::vector<int> sequence)
         if (data == sequence)
             found = true;
     }
+    return std::vector<int>();
 }
 
 int main()
