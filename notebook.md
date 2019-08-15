@@ -42,6 +42,7 @@ bool operator<(const student &y) const
 * 二维数组重新初始化：`data.resize(SIZE, vector<int>(SIZE, 0))`
 * 插入：`data.pushback()`
 * 迭代器中判断最后一个：`iter == data.end() - 1`
+* 判断相等：`data == tmp`
 
 #### list 双向链表
 
