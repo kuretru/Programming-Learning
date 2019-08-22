@@ -33,6 +33,8 @@ bool operator<(const student &y) const
 * 获取字符串中的某个字符：`char c = text[i]`
 * 数字转换为字符串：`string text = std::to_string(12345)`
 * 字符串转换为数组：`int x = std::stoi("12345")`
+* string转换为cstring：`char *c = text.c_str()` 或 `char *c = text.data()`
+* cstring转换为string：`std::string text(c)`
 
 ### 容器
 
