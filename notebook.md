@@ -24,6 +24,25 @@ bool operator<(const student &y) const
 {
     return grade > y.grade;
 }
+
+student operator+(const student &y)
+{
+    student s;
+    s.grade = grade + y.grade;
+    return s;
+}
+```
+
+### 函数指针
+
+```c++
+void quick_sort(vector<int> &data);
+void heap_sort(vector<int> &data);
+void merge_sort(vector<int> &data);
+void radix_sort(vector<int> &data);
+typedef void (*sort_interface)(vector<int> &data);
+sort_interface sort = radix_sort;
+sort(data);
 ```
 
 ## C++ STL
