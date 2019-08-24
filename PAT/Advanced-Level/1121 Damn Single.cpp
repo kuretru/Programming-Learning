@@ -2,6 +2,7 @@
 #include <iostream>
 #include <map>
 #include <set>
+
 int main()
 {
     std::map<int, int> couple;

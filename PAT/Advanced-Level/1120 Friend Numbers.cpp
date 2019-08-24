@@ -1,5 +1,6 @@
 #include <iostream>
 #include <set>
+
 int main()
 {
     std::set<int> result;
@@ -18,11 +19,7 @@ int main()
     }
     std::cout << result.size() << std::endl;
     for (auto iter = result.begin(); iter != result.end(); iter++)
-    {
-        if (iter != result.begin())
-            std::cout << " ";
-        std::cout << *iter;
-    }
+        std::cout << (iter != result.begin() ? " " : "") << *iter;
     std::cout << std::endl;
     return 0;
 }
