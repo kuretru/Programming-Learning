@@ -1,8 +1,9 @@
 #include <iostream>
 #include <vector>
+
 std::vector<int> in, post;
 std::vector<std::vector<int>> tree(30);
-bool desc = true;
+
 void toLevel(int inLeft, int inRight, int postIndex, int level)
 {
     if (inLeft > inRight)
@@ -16,7 +17,7 @@ void toLevel(int inLeft, int inRight, int postIndex, int level)
 }
 int main()
 {
-    int N;
+    int N = 0;
     std::cin >> N;
     in.resize(N);
     post.resize(N);
