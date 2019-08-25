@@ -2,20 +2,21 @@
 #include <set>
 #include <string>
 #include <vector>
+
 int main()
 {
-    bool keepgoing = true;
-    int M, N, S;
+    int M = 0, N = 0, S = 0;
     std::cin >> M >> N >> S;
-    std::vector<std::string> data(M);
+    std::vector<std::string> data(M + 1);
     std::set<std::string> found;
-    for (int i = 0; i < M; i++)
+    for (int i = 1; i <= M; i++)
         std::cin >> data[i];
-    for (int i = S - 1; i < M; i += N)
+    bool keepgoing = true;
+    for (int i = S; i <= M; i += N)
     {
-        while (i >= M || found.find(data[i]) != found.end())
+        while (i > M || found.count(data[i]))
             i++;
-        if (i < M)
+        if (i <= M)
         {
             std::cout << data[i] << std::endl;
             found.insert(data[i]);
