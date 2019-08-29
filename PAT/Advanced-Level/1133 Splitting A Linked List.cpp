@@ -1,13 +1,15 @@
 #include <iostream>
 #include <map>
 #include <vector>
+
 struct node
 {
     int address, data, next;
 };
+
 int main()
 {
-    int head, N, K;
+    int head = 0, N = 0, K = 0;
     std::cin >> head >> N >> K;
     std::map<int, node *> data;
     while (N--)
