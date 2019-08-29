@@ -1,6 +1,7 @@
 #include <algorithm>
 #include <iostream>
 #include <string>
+
 std::string add(std::string x, std::string y)
 {
     std::string result = "";
@@ -16,9 +17,10 @@ std::string add(std::string x, std::string y)
         result = "1" + result;
     return result;
 }
+
 int main()
 {
-    std::string number;
+    std::string number = "";
     std::cin >> number;
     for (int i = 0; i < 10; i++)
     {

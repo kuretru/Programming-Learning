@@ -3,22 +3,24 @@
 #include <map>
 #include <string>
 #include <vector>
+
 struct student
 {
-    std::string id;
+    std::string id = "";
     int programming = -1, mid = -1, finall = -1, g;
     bool operator<(const student &y) const
     {
-        if (g == y.g)
-            return id < y.id;
-        return g > y.g;
+        if (g != y.g)
+            return g > y.g;
+        return id < y.id;
     }
 };
+
 int main()
 {
-    int P, M, N, value;
+    int P = 0, M = 0, N = 0, value = 0;
     std::map<std::string, student> data;
-    std::string key;
+    std::string key = "";
     std::cin >> P >> M >> N;
     while (P--)
     {
