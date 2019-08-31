@@ -1,19 +1,21 @@
 #include <iostream>
-#include <map>
+#include <set>
+
 int main()
 {
-    std::map<int, int> data;
-    int N, tmp;
+    std::set<int> data;
+    int N = 0;
     std::cin >> N;
     while (N--)
     {
-        std::cin >> tmp;
-        if (tmp > 0)
-            data[tmp]++;
+        int number = 0;
+        std::cin >> number;
+        if (number > 0)
+            data.insert(number);
     }
     for (int i = 1;; i++)
     {
-        if (data[i] == 0)
+        if (!data.count(i))
         {
             std::cout << i << std::endl;
             break;
