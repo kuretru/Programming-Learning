@@ -1,6 +1,7 @@
 #include <cmath>
 #include <iostream>
 #include <vector>
+
 bool prime(int key)
 {
     for (int i = 2; i <= sqrt(key); i++)
@@ -8,15 +9,17 @@ bool prime(int key)
             return false;
     return key > 1;
 }
+
 int main()
 {
-    int MSize, N, M, key;
+    int MSize = 0, N = 0, M = 0;
     std::cin >> MSize >> N >> M;
     while (!prime(MSize))
         MSize++;
     std::vector<int> data(MSize, -1);
     while (N--)
     {
+        int key = 0;
         std::cin >> key;
         for (int i = 0; i < MSize; i++)
         {
@@ -33,6 +36,7 @@ int main()
     int result = 0;
     for (int i = 0; i < M; i++)
     {
+        int key = 0;
         std::cin >> key;
         int time = 0;
         for (int i = 0; i < MSize; i++)

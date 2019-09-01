@@ -3,18 +3,17 @@
 
 int main()
 {
-    int N, M, K, key;
+    int N = 0, M = 0, K = 0;
     std::cin >> N >> M;
     std::vector<std::vector<int>> data(N + 1, std::vector<int>(N + 1, 0));
     while (M--)
     {
-        int start, end;
+        int start = 0, end = 0;
         std::cin >> start >> end;
         data[start][end] = 1;
     }
     std::cin >> K;
     std::vector<int> result;
-    std::vector<std::vector<int>> copy = data;
     for (int i = 0; i < K; i++)
     {
         bool notOrder = false;
@@ -22,6 +21,7 @@ int main()
         int count = N;
         while (count--)
         {
+            int key = 0;
             std::cin >> key;
             if (notOrder)
                 continue;
@@ -43,8 +43,6 @@ int main()
             result.push_back(i);
     }
     for (auto iter = result.begin(); iter != result.end(); iter++)
-    {
         std::cout << *iter << (iter != result.end() - 1 ? " " : "\n");
-    }
     return 0;
 }
