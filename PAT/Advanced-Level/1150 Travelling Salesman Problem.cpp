@@ -1,14 +1,15 @@
 #include <iostream>
 #include <set>
 #include <vector>
+
 int main()
 {
-    int N, M, K;
+    int N = 0, M = 0, K = 0;
     std::cin >> N >> M;
     std::vector<std::vector<int>> data(N + 1, std::vector<int>(N + 1, -1));
     while (M--)
     {
-        int city1, city2, dist;
+        int city1 = 0, city2 = 0, dist = 0;
         std::cin >> city1 >> city2 >> dist;
         data[city1][city2] = data[city2][city1] = dist;
     }
@@ -16,7 +17,7 @@ int main()
     std::cin >> K;
     for (int i = 1; i <= K; i++)
     {
-        int count, type = 2, result = 0;
+        int count = 0, type = 2, result = 0;
         std::cin >> count;
         std::vector<int> path(count);
         std::set<int> visited;
