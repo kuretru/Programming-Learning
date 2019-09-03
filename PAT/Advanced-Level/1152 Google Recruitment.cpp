@@ -1,6 +1,7 @@
 #include <cmath>
 #include <iostream>
 #include <string>
+
 bool isPrime(int number)
 {
     if (number < 2)
@@ -19,10 +20,11 @@ bool isPrime(int number)
             return false;
     return true;
 }
+
 int main()
 {
-    int L, K;
-    std::string key;
+    int L = 0, K = 0;
+    std::string key = "";
     std::cin >> L >> K >> key;
     for (int i = 0; i <= L - K; i++)
     {
