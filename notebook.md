@@ -89,12 +89,14 @@ sort(data);
 
 #### set 红黑树
 
+* 存放结构体时需要重载`<`运算符
 * 插入元素：`set.insert(ELEMENT)`
 * 删除元素：`set.erase(ELEMENT)`，返回操作个数，1即为删除成功
 * 是否存在：`int set.count(ELEMENT)`，返回操作个数，1即为存在
 
 #### map 红黑树
 
+* 存放结构体时需要重载`<`运算符
 * 插入元素：`map[key] = value`，覆盖插入
 * 插入元素：`map.insert(std::pair<K_TYPE, V_TYPE>(key, value))`
 * 删除元素：`int map.erase(KEY)`，返回操作个数，1即为删除成功
@@ -104,10 +106,12 @@ sort(data);
 
 #### unordered_set 哈希表
 
+* 存放结构体时需要重载`==`运算符，并编写对应的哈希函数
 * 内部不自动排序，迭代顺序与插入顺序相反的set
 
 #### unordered_map 哈希表
 
+* 存放结构体时需要重载`==`运算符，并编写对应的哈希函数
 * 内部不自动排序，迭代顺序与插入顺序相反的map
 
 ## 调试技巧
