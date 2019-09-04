@@ -2,6 +2,10 @@
 
 ## C++ 基础
 
+### 输入输出
+
+* 读入一整行：`std::getline(std::cin, text)`
+
 ### 常量
 
 * int最大值：`INT32_MAX`
