@@ -71,7 +71,9 @@ sort(data);
 * 第一个元素：`data.front()`；最后一个元素：`data.back()`
 * 迭代器中判断最后一个：`iter == data.end() - 1`
 * 判断相等：`data == tmp`
+* 比较：`data > tmp`，依次比较`data[i] > tmp[i]`
 * 查找：`iter = std::find(data.begin(), data.end(), value)` in \<algorithm\>
+* 求和：`int sum = std::accumulate(data.begin(), data.end(), 0);` in \<numeric\>
 
 #### list 双向链表
 
