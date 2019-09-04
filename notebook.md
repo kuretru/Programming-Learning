@@ -98,6 +98,14 @@ sort(data);
 * 是否存在：`int map.count(KEY)`，返回操作个数，1即为存在
 * 迭代器：`iter->first`即为key值；`iter->second`即为value值
 
+#### unordered_set 哈希表
+
+* 内部不自动排序，迭代顺序与插入顺序相反的set
+
+#### unordered_map 哈希表
+
+* 内部不自动排序，迭代顺序与插入顺序相反的map
+
 ## 调试技巧
 
 ### 输出二叉树
