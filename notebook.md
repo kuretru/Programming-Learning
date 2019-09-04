@@ -55,6 +55,7 @@ sort(data);
 * 字符串转换为数组：`int x = std::stoi("12345")`
 * string转换为cstring：`char *c = text.c_str()` 或 `char *c = text.data()`
 * cstring转换为string：`std::string text(c)`
+* 求子串：`std::string sub = text.substr(start, length)`
 
 ### 容器
 
