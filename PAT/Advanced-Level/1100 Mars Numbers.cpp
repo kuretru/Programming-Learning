@@ -1,7 +1,9 @@
 #include <iostream>
 #include <string>
+
 std::string data[2][13] = {{"tret", "jan", "feb", "mar", "apr", "may", "jun", "jly", "aug", "sep", "oct", "nov", "dec"},
                            {"tret", "tam", "hel", "maa", "huh", "tou", "kes", "hei", "elo", "syy", "lok", "mer", "jou"}};
+
 int find(std::string key)
 {
     for (int i = 0; i < 13; i++)
@@ -13,13 +15,14 @@ int find(std::string key)
     }
     return -1;
 }
+
 int main()
 {
-    int count;
+    int count = 0;
     scanf("%d\n", &count);
     while (count--)
     {
-        std::string text;
+        std::string text = "";
         std::getline(std::cin, text);
         if (isdigit(text[0]))
         {
@@ -34,7 +37,7 @@ int main()
         }
         else
         {
-            int result;
+            int result = 0;
             if (text.length() > 4)
                 result = find(text.substr(0, 3)) + find(text.substr(4, 3));
             else
