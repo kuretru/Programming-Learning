@@ -10,7 +10,7 @@
 
 * int最大值：`INT32_MAX`
 * int最小值：`INT32_MIN`
-* 关闭stdio同步：`std::ios::sync_with_stdio(false)`
+* 关闭stdio同步：`std::ios::sync_with_stdio(false)`，关闭以后`cout`和`printf`不能混用
 
 ### 数学函数
 
