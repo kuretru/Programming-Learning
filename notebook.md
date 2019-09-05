@@ -54,7 +54,7 @@ sort(data);
 ### string 字符串
 
 * 获取字符串中的某个字符：`char c = text[i]`
-* 转换为小写：`std::transform(text.begin(), text.end(), text.begin(), ::tolower)`
+* 转换为小写：`std::transform(text.begin(), text.end(), text.begin(), ::tolower)` in \<numeric\>
 * 数字转换为字符串：`string text = std::to_string(12345)`
 * 字符串转换为数组：`int x = std::stoi("12345")`
 * string转换为cstring：`char *c = text.c_str()` 或 `char *c = text.data()`
