@@ -2,10 +2,14 @@
 #include <iostream>
 #include <queue>
 #include <vector>
+
 struct node
 {
-    int left, key, right;
+    int key = 0;
+    int left = 0;
+    int right = 0;
 };
+
 void preOrder(std::vector<node> &tree, std::vector<int> &data, int root, int &index)
 {
     if (tree[root].left != -1)
@@ -16,7 +20,7 @@ void preOrder(std::vector<node> &tree, std::vector<int> &data, int root, int &in
 }
 int main()
 {
-    int N, index = 0;
+    int N = 0, index = 0;
     std::cin >> N;
     std::vector<node> tree(N);
     for (int i = 0; i < N; i++)

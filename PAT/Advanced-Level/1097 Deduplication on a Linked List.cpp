@@ -1,16 +1,21 @@
 #include <iostream>
 #include <map>
+#include <set>
 #include <vector>
+
 struct node
 {
-    int address, key, next;
+    int address = 0;
+    int key = 0;
+    int next = 0;
 };
+
 int main()
 {
     std::ios::sync_with_stdio(false);
     std::map<int, node> data;
-    std::map<int, bool> exist;
-    int head, count;
+    std::set<int> exist;
+    int head = 0, count = 0;
     std::cin >> head >> count;
     while (count--)
     {
@@ -24,8 +29,8 @@ int main()
         if (data.find(head) == data.end())
             break;
         node n = data[head];
-        result[exist[abs(n.key)] ? 1 : 0].push_back(n);
-        exist[abs(n.key)] = true;
+        result[exist.count(abs(n.key)) ? 1 : 0].push_back(n);
+        exist.insert(abs(n.key));
         head = n.next;
     }
     for (int i = 0; i < 2; i++)
@@ -36,7 +41,7 @@ int main()
             if (j != result[i].size() - 1)
                 printf("%05d\n", result[i][j + 1].address);
             else
-                std::cout << -1 << std::endl;
+                printf("-1\n");
         }
     }
     return 0;
