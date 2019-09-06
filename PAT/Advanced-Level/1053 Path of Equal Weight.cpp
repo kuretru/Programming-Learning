@@ -1,44 +1,41 @@
 #include <algorithm>
 #include <iostream>
 #include <vector>
+
 struct node
 {
-    int weight, index;
+    int index = 0;
+    int weight = 0;
     std::vector<node *> leaves;
 };
+
 bool cmp(const node *x, const node *y)
 {
     if (x->weight != y->weight)
         return x->weight > y->weight;
     return x->index > y->index;
 }
-std::vector<node> data;
-int S;
-void DST(node *root, int sum, std::vector<int> sequence)
+
+void DST(std::vector<node> &data, std::vector<int> sequence, node *root, int sum, int S)
 {
     sum += root->weight;
     if (sum > S)
         return;
     sequence.push_back(root->weight);
-    std::vector<node *> &leaves = root->leaves;
-    if (leaves.empty() && sum == S)
+    if (root->leaves.empty() && sum == S)
     {
         for (auto iter = sequence.begin(); iter != sequence.end(); iter++)
-        {
-            if (iter != sequence.begin())
-                std::cout << " ";
-            std::cout << *iter;
-        }
-        std::cout << std::endl;
+            std::cout << *iter << (iter != sequence.end() - 1 ? " " : "\n");
     }
-    for (auto iter = leaves.begin(); iter != leaves.end(); iter++)
-        DST(*iter, sum, sequence);
+    for (auto iter = root->leaves.begin(); iter != root->leaves.end(); iter++)
+        DST(data, sequence, *iter, sum, S);
 }
+
 int main()
 {
-    int N, M, id, count, key;
+    int N = 0, M = 0, S = 0;
     std::cin >> N >> M >> S;
-    data.resize(N);
+    std::vector<node> data(N);
     for (int i = 0; i < N; i++)
     {
         std::cin >> data[i].weight;
@@ -46,6 +43,7 @@ int main()
     }
     for (int i = 0; i < M; i++)
     {
+        int id = 0, count = 0, key = 0;
         std::cin >> id >> count;
         for (int j = 0; j < count; j++)
         {
@@ -55,6 +53,6 @@ int main()
         sort(data[id].leaves.begin(), data[id].leaves.end(), cmp);
     }
     std::vector<int> result;
-    DST(&data[0], 0, result);
+    DST(data, std::vector<int>(), &data[0], 0, S);
     return 0;
 }

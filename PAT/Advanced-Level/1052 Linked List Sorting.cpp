@@ -1,18 +1,22 @@
-#include <algorithm>
 #include <iostream>
 #include <map>
+#include <set>
 #include <vector>
+
 struct node
 {
-    int address, value, next;
-    bool operator<(const node &y)
+    int address = 0;
+    int value = 0;
+    int next = 0;
+    bool operator<(const node &y) const
     {
         return value < y.value;
     }
 };
+
 int main()
 {
-    int N, head;
+    int N = 0, head = 0;
     std::cin >> N >> head;
     std::map<int, node> memory;
     while (N--)
@@ -21,13 +25,12 @@ int main()
         std::cin >> n.address >> n.value >> n.next;
         memory[n.address] = n;
     }
-    std::vector<node> list;
-    while (memory.find(head) != memory.end())
+    std::set<node> list;
+    while (memory.count(head))
     {
-        list.push_back(memory[head]);
+        list.insert(memory[head]);
         head = memory[head].next;
     }
-    sort(list.begin(), list.end());
     std::cout << list.size() << " ";
     for (auto iter = list.begin(); iter != list.end(); iter++)
         printf("%05d\n%05d %d ", iter->address, iter->address, iter->value);
