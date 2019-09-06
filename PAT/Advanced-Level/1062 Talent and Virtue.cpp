@@ -1,27 +1,29 @@
 #include <algorithm>
 #include <iostream>
 #include <vector>
+
 struct person
 {
-    int id, virtue, talent, total, sort;
+    int id = 0;
+    int virtue = 0;
+    int talent = 0;
+    int total = 0;
+    int sort = 0;
     bool operator<(const person &y) const
     {
-        if (sort == y.sort)
-        {
-            if (total == y.total)
-            {
-                if (virtue == y.virtue)
-                    return id < y.id;
-                return virtue > y.virtue;
-            }
+        if (sort != y.sort)
+            return sort < y.sort;
+        if (total != y.total)
             return total > y.total;
-        }
-        return sort < y.sort;
+        if (virtue != y.virtue)
+            return virtue > y.virtue;
+        return id < y.id;
     }
 };
+
 int main()
 {
-    int N, L, H;
+    int N = 0, L = 0, H = 0;
     std::cin >> N >> L >> H;
     std::vector<person> result;
     while (N--)
