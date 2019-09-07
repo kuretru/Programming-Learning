@@ -2,23 +2,26 @@
 #include <queue>
 #include <set>
 #include <vector>
+
 struct position
 {
-    int index;
-    int level;
+    int index = 0;
+    int level = 0;
     position(int index, int level)
     {
         this->index = index;
         this->level = level;
     };
 };
+
 int main()
 {
-    int N, L, count, key;
+    int N = 0, L = 0, K = 0;
     std::cin >> N >> L;
     std::vector<std::vector<int>> data(N + 1);
     for (int i = 1; i <= N; i++)
     {
+        int count = 0, key = 0;
         std::cin >> count;
         while (count--)
         {
@@ -26,9 +29,10 @@ int main()
             data[key].push_back(i);
         }
     }
-    std::cin >> count;
-    while (count--)
+    std::cin >> K;
+    while (K--)
     {
+        int key = 0;
         std::cin >> key;
         std::set<int> result;
         std::vector<bool> flags(N + 1, false);

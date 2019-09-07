@@ -1,9 +1,13 @@
 #include <algorithm>
 #include <iostream>
 #include <vector>
+
 struct student
 {
-    int rank = 0, id = 0, total = -1, count = 0;
+    int rank = 0;
+    int id = 0;
+    int total = -1;
+    int count = 0;
     std::vector<int> scores;
     bool show = false;
     student()
@@ -19,9 +23,10 @@ struct student
         return id < y.id;
     }
 };
+
 int main()
 {
-    int N, K, M;
+    int N = 0, K = 0, M = 0;
     std::cin >> N >> K >> M;
     std::vector<int> perfect(K + 1);
     for (int i = 1; i <= K; i++)
@@ -29,7 +34,7 @@ int main()
     std::vector<student> data(N + 1);
     while (M--)
     {
-        int user, problem, partial;
+        int user = 0, problem = 0, partial = 0;
         std::cin >> user >> problem >> partial;
         data[user].id = user;
         if (!data[user].show && partial > -1)
