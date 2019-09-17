@@ -2,16 +2,17 @@
 #include <map>
 #include <set>
 #include <string>
+
 int main()
 {
     std::ios::sync_with_stdio(false);
     std::map<std::string, std::set<int>> data;
-    std::string key;
-    int N, K;
+    std::string key = "";
+    int N = 0, K = 0;
     std::cin >> N >> K;
     while (K--)
     {
-        int course, count;
+        int course = 0, count = 0;
         std::cin >> course >> count;
         while (count--)
         {
