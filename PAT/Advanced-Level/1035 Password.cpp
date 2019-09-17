@@ -1,16 +1,20 @@
 #include <iostream>
 #include <string>
 #include <vector>
+
 struct account
 {
-    std::string username, password;
+    std::string username = "";
+    std::string password = "";
 };
+
 const char map[][2] = {{'1', '@'}, {'0', '%'}, {'l', 'L'}, {'O', 'o'}};
+
 int main()
 {
     std::vector<account> data;
-    int N;
-    scanf("%d\n", &N);
+    int N = 0;
+    std::cin >> N;
     for (int i = 0; i < N; i++)
     {
         bool flag = false;
