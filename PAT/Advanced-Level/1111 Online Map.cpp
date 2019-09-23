@@ -30,44 +30,44 @@ struct result
     std::vector<int> path;
 };
 
-bool compareDistance(street &x, street &y);
-bool compareTime(street &x, street &y);
-typedef bool (*compareInterface)(street &x, street &y);
-result dijkstra(std::vector<std::vector<street>> &data, int source, int destination, compareInterface compare);
-void printPath(std::vector<int> path);
+bool compare_distance(street &x, street &y);
+bool compare_time(street &x, street &y);
+typedef bool (*compare_interface)(street &x, street &y);
+result dijkstra(std::vector<std::vector<street>> &data, int source, int destination, compare_interface compare);
+void print_path(std::vector<int> path);
 
 int main()
 {
-    int N, M, source, destination;
+    int N = 0, M = 0, source = 0, destination = 0;
     std::cin >> N >> M;
     std::vector<std::vector<street>> data(N, std::vector<street>(N));
     while (M--)
     {
-        int v1, v2, oneWay;
+        int v1 = 0, v2 = 0, oneWay = 0;
         std::cin >> v1 >> v2 >> oneWay;
         std::cin >> data[v1][v2].length >> data[v1][v2].time;
         if (!oneWay)
             data[v2][v1] = data[v1][v2];
     }
     std::cin >> source >> destination;
-    result rDistance = dijkstra(data, source, destination, compareDistance);
-    result rTime = dijkstra(data, source, destination, compareTime);
-    if (rDistance.path == rTime.path)
+    result result_distance = dijkstra(data, source, destination, compare_distance);
+    result result_time = dijkstra(data, source, destination, compare_time);
+    if (result_distance.path == result_time.path)
     {
-        std::cout << "Distance = " << rDistance.distance << "; Time = " << rTime.time << ": ";
-        printPath(rDistance.path);
+        std::cout << "Distance = " << result_distance.distance << "; Time = " << result_time.time << ": ";
+        print_path(result_distance.path);
     }
     else
     {
-        std::cout << "Distance = " << rDistance.distance << ": ";
-        printPath(rDistance.path);
-        std::cout << "Time = " << rTime.time << ": ";
-        printPath(rTime.path);
+        std::cout << "Distance = " << result_distance.distance << ": ";
+        print_path(result_distance.path);
+        std::cout << "Time = " << result_time.time << ": ";
+        print_path(result_time.path);
     }
     return 0;
 }
 
-result dijkstra(std::vector<std::vector<street>> &data, int source, int destination, compareInterface compare)
+result dijkstra(std::vector<std::vector<street>> &data, int source, int destination, compare_interface compare)
 {
     std::vector<auxiliary> D(data.size());
     for (size_t i = 0; i < D.size(); i++)
@@ -105,31 +105,31 @@ result dijkstra(std::vector<std::vector<street>> &data, int source, int destinat
             }
         }
     }
-    result r;
-    r.distance = D[destination].params.length;
-    r.time = D[destination].params.time;
     std::vector<int> path;
     for (int head = destination; head != -1; head = D[head].path)
         path.push_back(head);
+    result r;
+    r.distance = D[destination].params.length;
+    r.time = D[destination].params.time;
     r.path = std::vector<int>(path.rbegin(), path.rend());
     return r;
 }
 
-bool compareDistance(street &x, street &y)
+bool compare_distance(street &x, street &y)
 {
     if (x.length != y.length)
         return x.length < y.length;
     return x.time < y.time;
 }
 
-bool compareTime(street &x, street &y)
+bool compare_time(street &x, street &y)
 {
     if (x.time != y.time)
         return x.time < y.time;
     return x.nodes < y.nodes;
 }
 
-void printPath(std::vector<int> path)
+void print_path(std::vector<int> path)
 {
     for (auto iter = path.begin(); iter != path.end(); iter++)
         std::cout << *iter << (iter != path.end() - 1 ? " -> " : "\n");
