@@ -6,6 +6,11 @@
 * float：浮点数：有范围限制
 * complex(real, imag)：复数
 
+## 列表 list
+
+* 排序：`data.sort()`
+* str列表转int列表：`data = [int(i) for i in line]`
+
 ## 算数运算符
 
 * //：(向左)取整
