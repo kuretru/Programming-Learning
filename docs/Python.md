@@ -54,3 +54,5 @@
 
 * 按字符串读入一整行：`text = input()`
 * 带提示读入：`input("Tips")`
+* 保留小数：`"{:.2f}.format(sum)"`
+* 右对齐：`{:6.2f}.format(sum)`
