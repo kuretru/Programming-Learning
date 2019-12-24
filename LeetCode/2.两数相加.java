@@ -3,6 +3,8 @@
  *
  * [2] 两数相加
  */
+
+// @lc code=start
 /**
  * Definition for singly-linked list.
  * public class ListNode {
@@ -28,3 +30,4 @@ class Solution {
         return result.next;
     }
 }
+// @lc code=end

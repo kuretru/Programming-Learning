@@ -5,6 +5,8 @@ import java.util.HashMap;
  *
  * [1] 两数之和
  */
+
+// @lc code=start
 class Solution {
     public int[] twoSum(int[] nums, int target) {
         HashMap<Integer, Integer> data = new HashMap<>(128);
@@ -21,3 +23,4 @@ class Solution {
         return new int[2];
     }
 }
+// @lc code=end
