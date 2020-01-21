@@ -1,6 +1,7 @@
 #include <algorithm>
 #include <iostream>
 #include <vector>
+
 int main()
 {
     int N, max = INT32_MIN;

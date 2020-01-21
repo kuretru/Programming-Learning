@@ -1,13 +1,16 @@
 #include <iostream>
 #include <string>
 #include <vector>
-int N;
+
 struct node
 {
     int index;
     node *left = NULL, *right = NULL, *parent = NULL;
 };
+
+int N;
 node *end = NULL;
+
 void depth(node *n, int index, int &max)
 {
     if (index > max)
@@ -19,6 +22,7 @@ void depth(node *n, int index, int &max)
     if (index == N)
         end = n;
 }
+
 int main()
 {
     std::cin >> N;
