@@ -1,25 +1,31 @@
 #include <iostream>
 #include <vector>
+
+using std::vector;
+
 struct city
 {
-    int distance = INT32_MAX, paths, teams;
+    int distance = INT32_MAX;
+    int paths = 0;
+    int teams = 0;
     bool visited = false;
 };
+
 int main()
 {
-    int N, M, C1, C2, result = 0;
+    int N = 0, M = 0, C1 = 0, C2 = 0, result = 0;
     std::cin >> N >> M >> C1 >> C2;
-    std::vector<int> teams(N);
+    vector<int> teams(N);
     for (int i = 0; i < N; i++)
         std::cin >> teams[i];
-    std::vector<std::vector<int>> distance(N, std::vector<int>(N, INT32_MAX));
+    vector<vector<int>> distance(N, vector<int>(N, INT32_MAX));
     while (M--)
     {
-        int x, y, d;
+        int x = 0, y = 0, d = 0;
         std::cin >> x >> y >> d;
         distance[x][y] = distance[y][x] = d;
     }
-    std::vector<city> dis(N);
+    vector<city> dis(N);
     dis[C1].distance = 0;
     dis[C1].paths = 1;
     dis[C1].teams = teams[C1];
@@ -33,7 +39,7 @@ int main()
             dis[i].teams = teams[C1] + teams[i];
         }
     }
-    while (1)
+    while (true)
     {
         int min = INT32_MAX, index;
         for (int i = 0; i < N; i++)

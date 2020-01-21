@@ -1,5 +1,6 @@
 #include <iostream>
 #include <string>
+
 int main()
 {
     static std::string data[] = {"zero", "one", "two", "three", "four", "five", "six", "seven", "eight", "nine"};

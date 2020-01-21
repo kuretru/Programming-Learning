@@ -1,8 +1,9 @@
 #include <iostream>
 #include <vector>
+
 int main()
 {
-    int a, b;
+    int a = 0, b = 0;
     bool isNegative = false;
     std::vector<int> data;
     std::cin >> a >> b;
