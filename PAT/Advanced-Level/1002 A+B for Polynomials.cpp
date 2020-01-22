@@ -3,8 +3,8 @@
 
 struct term
 {
-    int exponent;
-    float coefficient;
+    int exponent = 0;
+    float coefficient = 0;
 };
 
 int main()
