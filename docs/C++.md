@@ -89,6 +89,10 @@ sort(data);
 * 出队：`void queue.pop()`
 * 队首元素：`ELEMENT = queue.front()`
 
+#### [deque](https://zh.cppreference.com/w/cpp/container/deque) 双端队列
+
+* 清空队列：`deque.clear()`
+
 #### set 红黑树
 
 * 存放结构体时需要重载`<`运算符
