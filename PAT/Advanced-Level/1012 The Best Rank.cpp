@@ -3,21 +3,28 @@
 #include <map>
 #include <string>
 #include <vector>
+
 const std::string symbol[] = {"A", "C", "M", "E"};
+
 struct student
 {
-    int id, grades[4], ranks[4];
+    int id = 0;
+    int grades[4];
+    int ranks[4];
 };
+
 int order;
+
 bool cmp(const student *x, const student *y)
 {
     return x->grades[order] > y->grades[order];
 }
+
 int main()
 {
     std::map<int, student *> data;
     std::vector<student *> temp;
-    int N, M, key;
+    int N = 0, M = 0, key = 0;
     std::cin >> N >> M;
     for (int i = 0; i < N; i++)
     {

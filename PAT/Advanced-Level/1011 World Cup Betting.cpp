@@ -1,5 +1,6 @@
 #include <algorithm>
 #include <iostream>
+
 int main()
 {
     float sum = 1, data[3];
