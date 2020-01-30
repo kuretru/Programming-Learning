@@ -2,13 +2,16 @@
 #include <iostream>
 #include <queue>
 #include <vector>
+
 struct pair
 {
-    std::vector<int> post, in;
+    std::vector<int> post;
+    std::vector<int> in;
 };
+
 int main()
 {
-    int N, tmp;
+    int N = 0, tmp = 0;
     pair raw;
     std::cin >> N;
     for (int i = 0; i < N; i++)

@@ -1,8 +1,9 @@
 #include <iostream>
 #include <vector>
+
 int main()
 {
-    int N, b;
+    int N = 0, b = 0;
     std::cin >> N >> b;
     std::vector<int> digits;
     if (N == 0)
