@@ -3,10 +3,11 @@
 #include <map>
 #include <set>
 #include <string>
+
 int main()
 {
     std::map<std::string, std::set<int>> data[5];
-    int count, id;
+    int count = 0, id = 0;
     std::string key;
     std::cin >> count;
     while (count--)

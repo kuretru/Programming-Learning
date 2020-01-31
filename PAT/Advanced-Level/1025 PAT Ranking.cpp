@@ -2,24 +2,29 @@
 #include <iostream>
 #include <string>
 #include <vector>
+
 struct student
 {
     std::string id;
-    int grade, overall, location, local;
+    int grade = 0;
+    int overall = 0;
+    int location = 0;
+    int local = 0;
     bool operator<(const student &y) const
     {
-        if (grade == y.grade)
-            return id < y.id;
-        return grade > y.grade;
+        if (grade != y.grade)
+            return grade > y.grade;
+        return id < y.id;
     }
     student(int location)
     {
         this->location = location;
     }
 };
+
 int main()
 {
-    int location_number, count, last;
+    int location_number = 0, count = 0, last = 0;
     std::cin >> location_number;
     std::vector<student> overall, local;
     std::vector<student>::iterator iter;
