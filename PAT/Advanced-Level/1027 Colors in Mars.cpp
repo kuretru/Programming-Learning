@@ -1,9 +1,11 @@
 #include <iostream>
+
 const char keys[] = "0123456789ABC";
+
 int main()
 {
     std::cout << "#";
-    int color;
+    int color = 0;
     for (int i = 0; i < 3; i++)
     {
         std::cin >> color;

@@ -1,17 +1,19 @@
 #include <iostream>
 #include <map>
+
 struct node
 {
-    int address;
-    char data;
-    int next;
+    int address = 0;
+    char data = '\0';
+    int next = 0;
     bool flag = false;
 };
+
 int main()
 {
     std::ios::sync_with_stdio(false);
     std::map<int, node *> data;
-    int x, y, count;
+    int x = 0, y = 0, count = 0;
     std::cin >> x >> y >> count;
     while (count--)
     {

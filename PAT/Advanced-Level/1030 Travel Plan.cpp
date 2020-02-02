@@ -1,21 +1,23 @@
 #include <iostream>
 #include <vector>
+
 struct point
 {
-    int distance = INT32_MAX, cost = INT32_MAX;
-    ;
+    int distance = INT32_MAX;
+    int cost = INT32_MAX;
     bool visit = false;
     std::vector<int> path;
 };
+
 int main()
 {
-    int N, M, S, D;
+    int N = 0, M = 0, S = 0, D = 0;
     std::cin >> N >> M >> S >> D;
     std::vector<std::vector<int>> distance(N, std::vector<int>(N, INT32_MAX));
     std::vector<std::vector<int>> cost(N, std::vector<int>(N, INT32_MAX));
     while (M--)
     {
-        int c1, c2, d, c;
+        int c1 = 0, c2 = 0, d = 0, c = 0;
         std::cin >> c1 >> c2 >> d >> c;
         distance[c1][c2] = distance[c2][c1] = d;
         cost[c1][c2] = cost[c2][c1] = c;
