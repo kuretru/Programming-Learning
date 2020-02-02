@@ -66,7 +66,7 @@ sort(data);
 #### vector 顺序表
 
 * 二维数组初始化：`vector<vector<int> data(SIZE, vector<int>(SIZE, 0))`
-* 二维数组重新初始化：`data.resize(SIZE, vector<int>(SIZE, 0))`
+* 二维数组重新初始化：`data.assign(SIZE, 0)`
 * 插入：`data.pushback()`
 * 第一个元素：`data.front()`；最后一个元素：`data.back()`
 * 迭代器中判断最后一个：`iter == data.end() - 1`
