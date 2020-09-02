@@ -1,15 +1,18 @@
-#include <cstdio>
+#include <iostream>
+
+const double threshold = 1000;
 
 int main()
 {
-    int N;
-    scanf("%d", &N);
-    double key, result = 0;
-    for (int i = 1; i <= N; i++)
+    int count = 0;
+    double tmp = 0;
+    long result = 0;
+    std::cin >> count;
+    for (int i = 1, j = count; count-- > 0; i++, j--)
     {
-        scanf("%lf", &key);
-        result += key * i * (N + 1 - i);
+        std::cin >> tmp;
+        result += (long)(tmp * threshold * i * j);
     }
-    printf("%.2lf\n", result);
+    printf("%.2lf\n", result / threshold);
     return 0;
 }

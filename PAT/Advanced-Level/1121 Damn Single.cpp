@@ -9,7 +9,7 @@ int main()
     std::set<int> guest;
     std::set<int> single;
     std::set<int>::iterator iter;
-    int count, tmp;
+    int count = 0, tmp = 0;
     std::cin >> count;
     while (count--)
     {

@@ -7,7 +7,7 @@ const int direction[4][2] = {{0, 1}, {1, 0}, {0, -1}, {-1, 0}};
 
 int main()
 {
-    int N, m, n;
+    int N = 0, m = 0, n = 0;
     std::cin >> N;
     for (n = sqrt(N); n > 0; n--)
     {

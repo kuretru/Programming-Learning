@@ -7,6 +7,7 @@ struct market
     double demand = 0;
     double price = 0;
     double profit = 0;
+    
     bool operator<(const market &y) const
     {
         return profit > y.profit;

@@ -9,6 +9,7 @@ struct person
     int talent = 0;
     int total = 0;
     int sort = 0;
+    
     bool operator<(const person &y) const
     {
         if (sort != y.sort)
