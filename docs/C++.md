@@ -5,6 +5,7 @@
 ### 输入输出
 
 * 读入一整行：`std::getline(std::cin, text)`
+* `scanf`吞换行符：`scanf(%d%*c, count)`，`%*c`表示读入字符但不赋值，不能使用`\n`代替，某些题目会出错
 
 ### 常量
 
@@ -24,6 +25,11 @@
 ### 重写运算符
 
 ```c++
+student(std::string name)
+{
+    this->name=name;
+}
+
 bool operator<(const student &y) const
 {
     return grade > y.grade;
@@ -119,6 +125,41 @@ sort(data);
 
 * 存放结构体时需要重载`==`运算符，并编写对应的哈希函数
 * 内部不自动排序，~~迭代顺序与插入顺序相反的map~~，并不是完全相反，而是按照Hash表顺序，除非Hash表足够大
+
+## 常用方法
+
+### 判断质数
+
+```c++
+#include <cmath>
+
+int is_prime(int n)
+{
+    int length = sqrt(n);
+    for (int i = 2; i <= length; i++)
+        if (n % i == 0)
+            return false;
+    return n > 1;
+}
+```
+
+### 最大公约数-辗转相除法
+
+```c++
+int gcd(int x, int y)
+{
+    return y == 0 ? x : gcd(y, x % y);
+}
+```
+
+### sgn符号函数
+
+```c++
+int sgn(int n)
+{
+    return (n > 0) - (n < 0);
+}
+```
 
 ## 调试技巧
 
