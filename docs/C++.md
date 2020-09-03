@@ -105,6 +105,7 @@ sort(data);
 * 插入元素：`set.insert(ELEMENT)`
 * 删除元素：`set.erase(ELEMENT)`，返回操作个数，1即为删除成功
 * 是否存在：`int set.count(ELEMENT)`，返回操作个数，1即为存在
+* 效率不高，`vector<>`+`std::sort()`的效率是其的10倍
 
 #### map 红黑树
 
@@ -140,6 +141,25 @@ int is_prime(int n)
         if (n % i == 0)
             return false;
     return n > 1;
+}
+
+bool is_prime(int n)
+{
+    if (n < 2)
+        return false;
+    if (n != 2 && n % 2 == 0)
+        return false;
+    if (n != 3 && n % 3 == 0)
+        return false;
+    if (n != 5 && n % 5 == 0)
+        return false;
+    if (n != 7 && n % 7 == 0)
+        return false;
+    int length = sqrt(numnber);
+    for (int i = 11; i < length; i++)
+        if (n % i == 0)
+            return false;
+    return true;
 }
 ```
 

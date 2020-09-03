@@ -5,6 +5,7 @@
 * Courses 网课的学习记录
   * Data-Structure 浙江大学.数据结构
   * Python-Programming 浙江大学.Python程序设计
+  * Advanced-Data-Structures-and-Algorithm-Analysis 浙江大学.高级数据结构和算法分析
 * LeetCode LeetCode题库
 * Luogu 洛谷试炼场
 * PAT 浙江大学.计算机程序设计能力考试
