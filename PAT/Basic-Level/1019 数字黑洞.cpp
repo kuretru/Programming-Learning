@@ -1,7 +1,7 @@
 #include <algorithm>
 #include <iostream>
 
-void compute(int &x, int &y)
+void solve(int &x, int &y)
 {
     int data[4] = {0};
     for (int i = 0; x > 0; i++, x /= 10)
@@ -21,7 +21,7 @@ int main()
     std::cin >> x;
     do
     {
-        compute(x, y);
+        solve(x, y);
         printf("%04d - %04d = %04d\n", x, y, x - y);
         x = x - y;
     } while (x != 6174 && x != 0);
