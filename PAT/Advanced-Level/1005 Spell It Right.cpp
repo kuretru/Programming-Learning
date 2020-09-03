@@ -1,10 +1,11 @@
 #include <iostream>
 #include <string>
 
+const std::string data[] = {"zero", "one", "two", "three", "four", "five", "six", "seven", "eight", "nine"};
+
 int main()
 {
-    static std::string data[] = {"zero", "one", "two", "three", "four", "five", "six", "seven", "eight", "nine"};
-    std::string number;
+    std::string number = "";
     std::cin >> number;
     int sum = 0;
     for (int i = 0; i < number.length(); i++)

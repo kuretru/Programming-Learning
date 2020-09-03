@@ -29,8 +29,8 @@ int main()
             q.pop();
             if (data[id].empty())
                 count++;
-            for (auto iter = data[id].begin(); iter != data[id].end(); iter++)
-                q.push(*iter);
+            for (int child : data[id])
+                q.push(child);
             if (id == back)
                 break;
         }
