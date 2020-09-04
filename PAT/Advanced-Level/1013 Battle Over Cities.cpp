@@ -3,7 +3,8 @@
 
 struct edge
 {
-    int start = 0, end = 0;
+    int start = 0;
+    int end = 0;
 };
 
 int find(std::vector<int> &data, int value)
@@ -35,6 +36,7 @@ void unionn(std::vector<int> &data, int root1, int root2)
 
 int main()
 {
+    std::ios::sync_with_stdio(false);
     int N = 0, M = 0, K = 0;
     std::cin >> N >> M >> K;
     std::vector<edge> edges;
