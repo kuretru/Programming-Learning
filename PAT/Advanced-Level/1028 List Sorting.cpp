@@ -4,7 +4,7 @@
 
 struct student
 {
-    std::string name;
+    std::string name = "";
     int id = 0;
     int grade = 0;
 };
