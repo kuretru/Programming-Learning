@@ -5,7 +5,7 @@
 
 struct student
 {
-    std::string id;
+    std::string id = "";
     int grade = 0;
     int overall = 0;
     int location = 0;

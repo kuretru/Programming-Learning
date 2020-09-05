@@ -4,7 +4,7 @@
 
 int main()
 {
-    std::string number, doubled;
+    std::string number = "", doubled = "";
     std::cin >> number;
     std::vector<int> count(10);
     for (int i = 0; i < number.length(); i++)

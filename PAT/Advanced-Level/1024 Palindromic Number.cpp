@@ -25,7 +25,7 @@ std::string reverse(std::string text)
 
 int main()
 {
-    std::string N;
+    std::string N = "";
     int K = 0, step = 0;
     std::cin >> N >> K;
     for (; step < K && N != reverse(N); step++)
