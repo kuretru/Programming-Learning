@@ -1,2 +1,2 @@
-text = "Python语言简单易学"
-print(text.encode("utf-8"))
+s = "Python语言简单易学"
+print(s.encode("utf-8"))
