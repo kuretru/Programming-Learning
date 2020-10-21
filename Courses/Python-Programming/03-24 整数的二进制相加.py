@@ -1,0 +1,6 @@
+a = int(input())
+b = int(input())
+print('{:0>8b}'.format(a))
+print('{:0>8b}'.format(b))
+print('--------')
+print('{:0>8b}'.format(a + b))
