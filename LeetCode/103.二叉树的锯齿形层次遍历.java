@@ -2,9 +2,9 @@ import java.util.ArrayList;
 import java.util.List;
 
 /*
- * @lc app=leetcode.cn id=102 lang=java
+ * @lc app=leetcode.cn id=103 lang=java
  *
- * [102] 二叉树的层次遍历
+ * [103] 二叉树的锯齿形层次遍历
  */
 
 // @lc code=start
@@ -18,7 +18,7 @@ import java.util.List;
  * }
  */
 class Solution {
-    public List<List<Integer>> levelOrder(TreeNode root) {
+    public List<List<Integer>> zigzagLevelOrder(TreeNode root) {
         List<List<Integer>> result = new ArrayList<>();
         preorderTraversal(result, root, 0);
         return result;
@@ -31,7 +31,11 @@ class Solution {
         if (result.size() == level) {
             result.add(new ArrayList<>());
         }
-        result.get(level).add(root.val);
+        if (level % 2 == 1) {
+            result.get(level).add(root.val);
+        } else {
+            result.get(level).add(0, root.val);
+        }
         preorderTraversal(result, root.left, level + 1);
         preorderTraversal(result, root.right, level + 1);
     }
