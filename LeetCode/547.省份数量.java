@@ -49,7 +49,7 @@ class DisjointSet {
         if (rootX == rootY) {
             return rootX;
         }
-        if (data[rootX] > data[rootY]) {
+        if (rootX > rootY) {
             data[rootY] += data[rootX];
             data[rootX] = rootY;
             return rootY;
