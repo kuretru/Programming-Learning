@@ -181,6 +181,12 @@ int sgn(int n)
 }
 ```
 
+### count人分成n组
+
+```c++
+int groups = (int)((count + n - 1) * 1.0 / n)
+```
+
 ## 调试技巧
 
 ### 输出二叉树
