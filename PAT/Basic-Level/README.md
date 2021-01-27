@@ -4,98 +4,98 @@
 
 | 标号 | 标题 | 分数 | 题解 | 标签 |
 | :---: | :---: | :---: | :---: | :---: |
-| 1001 | [害死人不偿命的(3n+1)猜想](https://pintia.cn/problem-sets/994805260223102976/problems/994805325918486528) | 15 | [C++](1001 害死人不偿命的(3n+1)猜想.cpp) [Python](1001 害死人不偿命的(3n+1)猜想.py) [Java](1001 害死人不偿命的(3n+1)猜想.java) | |
-| 1002 | [写出这个数](https://pintia.cn/problem-sets/994805260223102976/problems/994805324509200384) | 20 | [C++](1002 写出这个数.cpp) | |
-| 1003 | [我要通过！](https://pintia.cn/problem-sets/994805260223102976/problems/994805323154440192) | 20 | [C++](1003 我要通过！.cpp) | |
-| 1004 | [成绩排名](https://pintia.cn/problem-sets/994805260223102976/problems/994805321640296448) | 20 | [C++](1004 成绩排名.cpp) | |
-| 1005 | [继续(3n+1)猜想](https://pintia.cn/problem-sets/994805260223102976/problems/994805320306507776) | 25 | [C++](1005 继续(3n+1)猜想.cpp) | |
-| 1006 | [换个格式输出整数](https://pintia.cn/problem-sets/994805260223102976/problems/994805318855278592) | 15 | [C++](1006 换个格式输出整数.cpp) | |
-| 1007 | [素数对猜想](https://pintia.cn/problem-sets/994805260223102976/problems/994805317546655744) | 20 | [C++](1007 素数对猜想.cpp) | |
-| 1008 | [数组元素循环右移问题](https://pintia.cn/problem-sets/994805260223102976/problems/994805316250615808) | 20 | [C++](1008 数组元素循环右移问题.cpp) | |
-| 1009 | [说反话](https://pintia.cn/problem-sets/994805260223102976/problems/994805314941992960) | 20 | [C++](1009 说反话.cpp) | |
-| 1010 | [一元多项式求导](https://pintia.cn/problem-sets/994805260223102976/problems/994805313708867584) | 25 | [C++](10 一元多项式求导.cpp) | |
-| 1011 | [A+B 和 C](https://pintia.cn/problem-sets/994805260223102976/problems/994805312417021952) | 15 | [C++](1011 A+B 和 C.cpp) | |
-| 1012 | [数字分类](https://pintia.cn/problem-sets/994805260223102976/problems/994805311146147840) | 20 | [C++](1012 数字分类.cpp) | |
-| 1013 | [数素数](https://pintia.cn/problem-sets/994805260223102976/problems/994805309963354112) | 20 | [C++](1013 数素数.cpp) | |
-| 1014 | [福尔摩斯的约会](https://pintia.cn/problem-sets/994805260223102976/problems/994805308755394560) | 20 | [C++](1014 福尔摩斯的约会.cpp) | |
-| 1015 | [德才论](https://pintia.cn/problem-sets/994805260223102976/problems/994805307551629312) | 25 | [C++](1015 德才论.cpp) | |
-| 1016 | [部分A+B](https://pintia.cn/problem-sets/994805260223102976/problems/994805306310115328) | 15 | [C++](1016 部分A+B.cpp) | |
-| 1017 | [A除以B](https://pintia.cn/problem-sets/994805260223102976/problems/994805305181847552) | 20 | [C++](1017 A除以B.cpp) | |
-| 1018 | [锤子剪刀布](https://pintia.cn/problem-sets/994805260223102976/problems/994805304020025344) | 20 | [C++](1018 锤子剪刀布.cpp) | |
-| 1019 | [数字黑洞](https://pintia.cn/problem-sets/994805260223102976/problems/994805302786899968) | 20 | [C++](1019 数字黑洞.cpp) | |
-| 1020 | [月饼](https://pintia.cn/problem-sets/994805260223102976/problems/994805301562163200) | 25 | [C++](1020 月饼.cpp) | |
-| 1021 | [个位数统计](https://pintia.cn/problem-sets/994805260223102976/problems/994805300404535296) | 15 | [C++](1021 个位数统计.cpp) | |
-| 1022 | [D进制的A+B](https://pintia.cn/problem-sets/994805260223102976/problems/994805299301433344) | 20 | [C++](1022 D进制的A+B.cpp) | |
-| 1023 | [组个最小数](https://pintia.cn/problem-sets/994805260223102976/problems/994805298269634560) | 20 | [C++](1023 组个最小数.cpp) | |
-| 1024 | [科学计数法](https://pintia.cn/problem-sets/994805260223102976/problems/994805297229447168) | 20 | [C++](1024 科学计数法.cpp) | |
-| 1025 | [反转链表](https://pintia.cn/problem-sets/994805260223102976/problems/994805296180871168) | 25 | [C++](1025 反转链表.cpp) | |
-| 1026 | [程序运行时间](https://pintia.cn/problem-sets/994805260223102976/problems/994805295203598336) | 15 | [C++](1026 程序运行时间.cpp) | |
-| 1027 | [打印沙漏](https://pintia.cn/problem-sets/994805260223102976/problems/994805294251491328) | 20 | [C++](1027 打印沙漏.cpp) | |
-| 1028 | [人口普查](https://pintia.cn/problem-sets/994805260223102976/problems/994805293282607104) | 20 | [C++](1028 人口普查.cpp) | |
-| 1029 | [旧键盘](https://pintia.cn/problem-sets/994805260223102976/problems/994805292322111488) | 20 | [C++](1029 旧键盘.cpp) | |
-| 1030 | [完美数列](https://pintia.cn/problem-sets/994805260223102976/problems/994805291311284224) | 25 | [C++](1030 完美数列.cpp) | |
-| 1031 | [查验身份证](https://pintia.cn/problem-sets/994805260223102976/problems/994805290334011392) | 15 | [C++](1031 查验身份证.cpp) | |
-| 1032 | [挖掘机技术哪家强](https://pintia.cn/problem-sets/994805260223102976/problems/994805289432236032) | 20 | [C++](1032 挖掘机技术哪家强.cpp) | |
-| 1033 | [旧键盘打字](https://pintia.cn/problem-sets/994805260223102976/problems/994805288530460672) | 20 | [C++](1033 旧键盘打字.cpp) | |
-| 1034 | [有理数四则运算](https://pintia.cn/problem-sets/994805260223102976/problems/994805287624491008) | 20 | [C++](1034 有理数四则运算.cpp) | |
-| 1035 | [插入与归并](https://pintia.cn/problem-sets/994805260223102976/problems/994805286714327040) | 25 | [C++](1035 插入与归并.cpp) | |
-| 1036 | [跟奥巴马一起编程](https://pintia.cn/problem-sets/994805260223102976/problems/994805285812551680) | 15 | [C++](1036 跟奥巴马一起编程.cpp) | |
-| 1037 | [在霍格沃茨找零钱](https://pintia.cn/problem-sets/994805260223102976/problems/994805284923359232) | 20 | [C++](1037 在霍格沃茨找零钱.cpp) | |
-| 1038 | [统计同成绩学生](https://pintia.cn/problem-sets/994805260223102976/problems/994805284092887040) | 20 | [C++](1038 统计同成绩学生.cpp) | |
-| 1039 | [到底买不买](https://pintia.cn/problem-sets/994805260223102976/problems/994805283241443328) | 20 | [C++](1039 到底买不买.cpp) | |
-| 1040 | [有几个PAT](https://pintia.cn/problem-sets/994805260223102976/problems/994805282389999616) | 25 | [C++](1040 有几个PAT.cpp) | |
-| 1041 | [考试座位号](https://pintia.cn/problem-sets/994805260223102976/problems/994805281567916032) | 15 | [C++](1041 考试座位号.cpp) | |
-| 1042 | [字符统计](https://pintia.cn/problem-sets/994805260223102976/problems/994805280817135616) | 20 | [C++](1042 字符统计.cpp) | |
-| 1043 | [输出PATest](https://pintia.cn/problem-sets/994805260223102976/problems/994805280074743808) | 20 | [C++](1043 输出PATest.cpp) | |
-| 1044 | [火星数字](https://pintia.cn/problem-sets/994805260223102976/problems/994805279328157696) | 20 | [C++](1044 火星数字.cpp) | |
-| 1045 | [快速排序](https://pintia.cn/problem-sets/994805260223102976/problems/994805278589960192) | 25 | [C++](1045 快速排序.cpp) | |
-| 1046 | [划拳](https://pintia.cn/problem-sets/994805260223102976/problems/994805277847568384) | 15 | [C++](1046 划拳.cpp) | |
-| 1047 | [编程团体赛](https://pintia.cn/problem-sets/994805260223102976/problems/994805277163896832) | 20 | [C++](1047 编程团体赛.cpp) | |
-| 1048 | [数字加密](https://pintia.cn/problem-sets/994805260223102976/problems/994805276438282240) | 20 | [C++](1048 数字加密.cpp) | |
-| 1049 | [数列的片段和](https://pintia.cn/problem-sets/994805260223102976/problems/994805275792359424) | 20 | [C++](1049 数列的片段和.cpp) | |
-| 1050 | [螺旋矩阵](https://pintia.cn/problem-sets/994805260223102976/problems/994805275146436608) | 25 | [C++](1050 螺旋矩阵.cpp) | |
-| 1051 | [复数乘法](https://pintia.cn/problem-sets/994805260223102976/problems/994805274496319488) | 15 | [C++](1051 复数乘法.cpp) | |
-| 1052 | [卖个萌](https://pintia.cn/problem-sets/994805260223102976/problems/994805273883951104) | 20 | [C++](1052 卖个萌.cpp) | |
-| 1053 | [住房空置率](https://pintia.cn/problem-sets/994805260223102976/problems/994805273284165632) | 20 | [C++](1053 住房空置率.cpp) | |
-| 1054 | [求平均值](https://pintia.cn/problem-sets/994805260223102976/problems/994805272659214336) | 20 | [C++](1054 求平均值.cpp) | |
-| 1055 | [集体照](https://pintia.cn/problem-sets/994805260223102976/problems/994805272021680128) | 25 | [C++](1055 集体照.cpp) | |
-| 1056 | [组合数的和](https://pintia.cn/problem-sets/994805260223102976/problems/994805271455449088) | 15 | [C++](1056 组合数的和.cpp) | |
-| 1057 | [数零壹](https://pintia.cn/problem-sets/994805260223102976/problems/994805270914383872) | 20 | [C++](1057 数零壹.cpp) | |
-| 1058 | [选择题](https://pintia.cn/problem-sets/994805260223102976/problems/994805270356541440) | 20 | [C++](1058 选择题.cpp) | |
-| 1059 | [C语言竞赛](https://pintia.cn/problem-sets/994805260223102976/problems/994805269828059136) | 20 | [C++](1059 C语言竞赛.cpp) | |
-| 1060 | [爱丁顿数](https://pintia.cn/problem-sets/994805260223102976/problems/994805269312159744) | 25 | [C++](1060 爱丁顿数.cpp) | |
-| 1061 | [判断题](https://pintia.cn/problem-sets/994805260223102976/problems/994805268817231872) | 15 | [C++](1061 判断题.cpp) | |
-| 1062 | [最简分数](https://pintia.cn/problem-sets/994805260223102976/problems/994805268334886912) | 20 | [C++](1062 最简分数.cpp) | |
-| 1063 | [计算谱半径](https://pintia.cn/problem-sets/994805260223102976/problems/994805267860930560) | 20 | [C++](1063 计算谱半径.cpp) | |
-| 1064 | [朋友数](https://pintia.cn/problem-sets/994805260223102976/problems/994805267416334336) | 20 | [C++](1064 朋友数.cpp) | |
-| 1065 | [单身狗](https://pintia.cn/problem-sets/994805260223102976/problems/994805266942377984) | 25 | [C++](1065 单身狗.cpp) | |
-| 1066 | [图像过滤](https://pintia.cn/problem-sets/994805260223102976/problems/994805266514558976) | 15 | [C++](1066 图像过滤.cpp) | |
-| 1067 | [试密码](https://pintia.cn/problem-sets/994805260223102976/problems/994805266007048192) | 20 | [C++](1067 试密码.cpp) | |
-| 1068 | [万绿丛中一点红](https://pintia.cn/problem-sets/994805260223102976/problems/994805265579229184) | 20 | [C++](1068 万绿丛中一点红.cpp) | |
-| 1069 | [微博转发抽奖](https://pintia.cn/problem-sets/994805260223102976/problems/994805265159798784) | 20 | [C++](1069 微博转发抽奖.cpp) | |
-| 1070 | [结绳](https://pintia.cn/problem-sets/994805260223102976/problems/994805264706813952) | 25 | [C++](1070 结绳.cpp) | |
-| 1071 | [小赌怡情](https://pintia.cn/problem-sets/994805260223102976/problems/994805264312549376) | 15 | [C++](1071 小赌怡情.cpp) | |
-| 1072 | [开学寄语](https://pintia.cn/problem-sets/994805260223102976/problems/994805263964422144) | 20 | [C++](1072 开学寄语.cpp) | |
-| 1073 | [多选题常见计分法](https://pintia.cn/problem-sets/994805260223102976/problems/994805263624683520) | 20 | [C++](1073 多选题常见计分法.cpp) | |
-| 1074 | [宇宙无敌加法器](https://pintia.cn/problem-sets/994805260223102976/problems/994805263297527808) | 20 | [C++](1074 宇宙无敌加法器.cpp) | |
-| 1075 | [链表元素分类](https://pintia.cn/problem-sets/994805260223102976/problems/994805262953594880) | 25 | [C++](1075 链表元素分类.cpp) | |
-| 1076 | [Wifi密码](https://pintia.cn/problem-sets/994805260223102976/problems/994805262622244864) | 15 | [C++](1076 Wifi密码.cpp) | |
-| 1077 | [互评成绩计算](https://pintia.cn/problem-sets/994805260223102976/problems/994805262303477760) | 20 | [C++](1077 互评成绩计算.cpp) | |
-| 1078 | [字符串压缩与解压](https://pintia.cn/problem-sets/994805260223102976/problems/994805262018265088) | 20 | [C++](1078 字符串压缩与解压.cpp) | |
-| 1079 | [延迟的回文数](https://pintia.cn/problem-sets/994805260223102976/problems/994805261754023936) | 20 | [C++](1079 延迟的回文数.cpp) | |
-| 1080 | [MOOC期终成绩](https://pintia.cn/problem-sets/994805260223102976/problems/994805261493977088) | 25 | [C++](1080 MOOC期终成绩.cpp) | |
-| 1081 | [检查密码](https://pintia.cn/problem-sets/994805260223102976/problems/994805261217153024) | 15 | [C++](1081 检查密码.cpp) | |
-| 1082 | [射击比赛](https://pintia.cn/problem-sets/994805260223102976/problems/994805260990660608) | 20 | [C++](1082 射击比赛.cpp) | |
-| 1083 | [是否存在相等的差](https://pintia.cn/problem-sets/994805260223102976/problems/994805260780945408) | 20 | [C++](1083 是否存在相等的差.cpp) | |
-| 1084 | [外观数列](https://pintia.cn/problem-sets/994805260223102976/problems/994805260583813120) | 20 | [C++](1084 外观数列.cpp) | |
-| 1085 | [PAT单位排行](https://pintia.cn/problem-sets/994805260223102976/problems/994805260353126400) | 25 | [C++](1085 PAT单位排行.cpp) | |
-| 1086 | [就不告诉你](https://pintia.cn/problem-sets/994805260223102976/problems/1038429065476579328) | 15 | [C++](1086 就不告诉你.cpp) | |
-| 1087 | [有多少不同的值](https://pintia.cn/problem-sets/994805260223102976/problems/1038429191091781632) | 20 | [C++](1087 有多少不同的值.cpp) | |
-| 1088 | [三人行](https://pintia.cn/problem-sets/994805260223102976/problems/1038429286185074688) | 20 | [C++](1088 三人行.cpp) | |
-| 1089 | [狼人杀-简单版](https://pintia.cn/problem-sets/994805260223102976/problems/1038429385296453632) | 20 | [C++](1089 狼人杀-简单版.cpp) | |
-| 1090 | [危险品装箱](https://pintia.cn/problem-sets/994805260223102976/problems/1038429484026175488) | 25 | [C++](1090 危险品装箱.cpp) | |
-| 1091 | [N-自守数](https://pintia.cn/problem-sets/994805260223102976/problems/1071785664454127616) | 15 | [C++](1091 N-自守数.cpp) | |
-| 1092 | [最好吃的月饼](https://pintia.cn/problem-sets/994805260223102976/problems/1071785779399028736) | 20 | [C++](1092 最好吃的月饼.cpp) | |
-| 1093 | [字符串A+B](https://pintia.cn/problem-sets/994805260223102976/problems/1071785884776722432) | 20 | [C++](1093 字符串A+B.cpp) | |
-| 1094 | [谷歌的招聘](https://pintia.cn/problem-sets/994805260223102976/problems/1071785997033074688) | 20 | [C++](1094 谷歌的招聘.cpp) | |
-| 1095 | [解码PAT准考证](https://pintia.cn/problem-sets/994805260223102976/problems/1071786104348536832) | 25 | [C++](1095 解码PAT准考证.cpp) | |
+| 1001 | [害死人不偿命的(3n+1)猜想](https://pintia.cn/problem-sets/994805260223102976/problems/994805325918486528) | 15 | [C++](https://github.com/kuretru/Programming-Learning/blob/master/PAT/Basic-Level/1001%20害死人不偿命的(3n+1)猜想.cpp) [Python](https://github.com/kuretru/Programming-Learning/blob/master/PAT/Basic-Level/1001%20害死人不偿命的(3n+1)猜想.py) [Java](https://github.com/kuretru/Programming-Learning/blob/master/PAT/Basic-Level/1001%20害死人不偿命的(3n+1)猜想.java) | |
+| 1002 | [写出这个数](https://pintia.cn/problem-sets/994805260223102976/problems/994805324509200384) | 20 | [C++](https://github.com/kuretru/Programming-Learning/blob/master/PAT/Basic-Level/1002%20写出这个数.cpp) | |
+| 1003 | [我要通过！](https://pintia.cn/problem-sets/994805260223102976/problems/994805323154440192) | 20 | [C++](https://github.com/kuretru/Programming-Learning/blob/master/PAT/Basic-Level/1003%20我要通过！.cpp) | |
+| 1004 | [成绩排名](https://pintia.cn/problem-sets/994805260223102976/problems/994805321640296448) | 20 | [C++](https://github.com/kuretru/Programming-Learning/blob/master/PAT/Basic-Level/1004%20成绩排名.cpp) | |
+| 1005 | [继续(3n+1)猜想](https://pintia.cn/problem-sets/994805260223102976/problems/994805320306507776) | 25 | [C++](https://github.com/kuretru/Programming-Learning/blob/master/PAT/Basic-Level/1005%20继续(3n+1)猜想.cpp) | |
+| 1006 | [换个格式输出整数](https://pintia.cn/problem-sets/994805260223102976/problems/994805318855278592) | 15 | [C++](https://github.com/kuretru/Programming-Learning/blob/master/PAT/Basic-Level/1006%20换个格式输出整数.cpp) | |
+| 1007 | [素数对猜想](https://pintia.cn/problem-sets/994805260223102976/problems/994805317546655744) | 20 | [C++](https://github.com/kuretru/Programming-Learning/blob/master/PAT/Basic-Level/1007%20素数对猜想.cpp) | |
+| 1008 | [数组元素循环右移问题](https://pintia.cn/problem-sets/994805260223102976/problems/994805316250615808) | 20 | [C++](https://github.com/kuretru/Programming-Learning/blob/master/PAT/Basic-Level/1008%20数组元素循环右移问题.cpp) | |
+| 1009 | [说反话](https://pintia.cn/problem-sets/994805260223102976/problems/994805314941992960) | 20 | [C++](https://github.com/kuretru/Programming-Learning/blob/master/PAT/Basic-Level/1009%20说反话.cpp) | |
+| 1010 | [一元多项式求导](https://pintia.cn/problem-sets/994805260223102976/problems/994805313708867584) | 25 | [C++](https://github.com/kuretru/Programming-Learning/blob/master/PAT/Basic-Level/1010%20一元多项式求导.cpp) | |
+| 1011 | [A+B 和 C](https://pintia.cn/problem-sets/994805260223102976/problems/994805312417021952) | 15 | [C++](https://github.com/kuretru/Programming-Learning/blob/master/PAT/Basic-Level/1011%20A+B%20和%20C.cpp) | |
+| 1012 | [数字分类](https://pintia.cn/problem-sets/994805260223102976/problems/994805311146147840) | 20 | [C++](https://github.com/kuretru/Programming-Learning/blob/master/PAT/Basic-Level/1012%20数字分类.cpp) | |
+| 1013 | [数素数](https://pintia.cn/problem-sets/994805260223102976/problems/994805309963354112) | 20 | [C++](https://github.com/kuretru/Programming-Learning/blob/master/PAT/Basic-Level/1013%20数素数.cpp) | |
+| 1014 | [福尔摩斯的约会](https://pintia.cn/problem-sets/994805260223102976/problems/994805308755394560) | 20 | [C++](https://github.com/kuretru/Programming-Learning/blob/master/PAT/Basic-Level/1014%20福尔摩斯的约会.cpp) | |
+| 1015 | [德才论](https://pintia.cn/problem-sets/994805260223102976/problems/994805307551629312) | 25 | [C++](https://github.com/kuretru/Programming-Learning/blob/master/PAT/Basic-Level/1015%20德才论.cpp) | |
+| 1016 | [部分A+B](https://pintia.cn/problem-sets/994805260223102976/problems/994805306310115328) | 15 | [C++](https://github.com/kuretru/Programming-Learning/blob/master/PAT/Basic-Level/1016%20部分A+B.cpp) | |
+| 1017 | [A除以B](https://pintia.cn/problem-sets/994805260223102976/problems/994805305181847552) | 20 | [C++](https://github.com/kuretru/Programming-Learning/blob/master/PAT/Basic-Level/1017%20A除以B.cpp) | |
+| 1018 | [锤子剪刀布](https://pintia.cn/problem-sets/994805260223102976/problems/994805304020025344) | 20 | [C++](https://github.com/kuretru/Programming-Learning/blob/master/PAT/Basic-Level/1018%20锤子剪刀布.cpp) | |
+| 1019 | [数字黑洞](https://pintia.cn/problem-sets/994805260223102976/problems/994805302786899968) | 20 | [C++](https://github.com/kuretru/Programming-Learning/blob/master/PAT/Basic-Level/1019%20数字黑洞.cpp) | |
+| 1020 | [月饼](https://pintia.cn/problem-sets/994805260223102976/problems/994805301562163200) | 25 | [C++](https://github.com/kuretru/Programming-Learning/blob/master/PAT/Basic-Level/1020%20月饼.cpp) | |
+| 1021 | [个位数统计](https://pintia.cn/problem-sets/994805260223102976/problems/994805300404535296) | 15 | [C++](https://github.com/kuretru/Programming-Learning/blob/master/PAT/Basic-Level/1021%20个位数统计.cpp) | |
+| 1022 | [D进制的A+B](https://pintia.cn/problem-sets/994805260223102976/problems/994805299301433344) | 20 | [C++](https://github.com/kuretru/Programming-Learning/blob/master/PAT/Basic-Level/1022%20D进制的A+B.cpp) | |
+| 1023 | [组个最小数](https://pintia.cn/problem-sets/994805260223102976/problems/994805298269634560) | 20 | [C++](https://github.com/kuretru/Programming-Learning/blob/master/PAT/Basic-Level/1023%20组个最小数.cpp) | |
+| 1024 | [科学计数法](https://pintia.cn/problem-sets/994805260223102976/problems/994805297229447168) | 20 | [C++](https://github.com/kuretru/Programming-Learning/blob/master/PAT/Basic-Level/1024%20科学计数法.cpp) | |
+| 1025 | [反转链表](https://pintia.cn/problem-sets/994805260223102976/problems/994805296180871168) | 25 | [C++](https://github.com/kuretru/Programming-Learning/blob/master/PAT/Basic-Level/1025%20反转链表.cpp) | |
+| 1026 | [程序运行时间](https://pintia.cn/problem-sets/994805260223102976/problems/994805295203598336) | 15 | [C++](https://github.com/kuretru/Programming-Learning/blob/master/PAT/Basic-Level/1026%20程序运行时间.cpp) | |
+| 1027 | [打印沙漏](https://pintia.cn/problem-sets/994805260223102976/problems/994805294251491328) | 20 | [C++](https://github.com/kuretru/Programming-Learning/blob/master/PAT/Basic-Level/1027%20打印沙漏.cpp) | |
+| 1028 | [人口普查](https://pintia.cn/problem-sets/994805260223102976/problems/994805293282607104) | 20 | [C++](https://github.com/kuretru/Programming-Learning/blob/master/PAT/Basic-Level/1028%20人口普查.cpp) | |
+| 1029 | [旧键盘](https://pintia.cn/problem-sets/994805260223102976/problems/994805292322111488) | 20 | [C++](https://github.com/kuretru/Programming-Learning/blob/master/PAT/Basic-Level/1029%20旧键盘.cpp) | |
+| 1030 | [完美数列](https://pintia.cn/problem-sets/994805260223102976/problems/994805291311284224) | 25 | [C++](https://github.com/kuretru/Programming-Learning/blob/master/PAT/Basic-Level/1030%20完美数列.cpp) | |
+| 1031 | [查验身份证](https://pintia.cn/problem-sets/994805260223102976/problems/994805290334011392) | 15 | [C++](https://github.com/kuretru/Programming-Learning/blob/master/PAT/Basic-Level/1031%20查验身份证.cpp) | |
+| 1032 | [挖掘机技术哪家强](https://pintia.cn/problem-sets/994805260223102976/problems/994805289432236032) | 20 | [C++](https://github.com/kuretru/Programming-Learning/blob/master/PAT/Basic-Level/1032%20挖掘机技术哪家强.cpp) | |
+| 1033 | [旧键盘打字](https://pintia.cn/problem-sets/994805260223102976/problems/994805288530460672) | 20 | [C++](https://github.com/kuretru/Programming-Learning/blob/master/PAT/Basic-Level/1033%20旧键盘打字.cpp) | |
+| 1034 | [有理数四则运算](https://pintia.cn/problem-sets/994805260223102976/problems/994805287624491008) | 20 | [C++](https://github.com/kuretru/Programming-Learning/blob/master/PAT/Basic-Level/1034%20有理数四则运算.cpp) | |
+| 1035 | [插入与归并](https://pintia.cn/problem-sets/994805260223102976/problems/994805286714327040) | 25 | [C++](https://github.com/kuretru/Programming-Learning/blob/master/PAT/Basic-Level/1035%20插入与归并.cpp) | |
+| 1036 | [跟奥巴马一起编程](https://pintia.cn/problem-sets/994805260223102976/problems/994805285812551680) | 15 | [C++](https://github.com/kuretru/Programming-Learning/blob/master/PAT/Basic-Level/1036%20跟奥巴马一起编程.cpp) | |
+| 1037 | [在霍格沃茨找零钱](https://pintia.cn/problem-sets/994805260223102976/problems/994805284923359232) | 20 | [C++](https://github.com/kuretru/Programming-Learning/blob/master/PAT/Basic-Level/1037%20在霍格沃茨找零钱.cpp) | |
+| 1038 | [统计同成绩学生](https://pintia.cn/problem-sets/994805260223102976/problems/994805284092887040) | 20 | [C++](https://github.com/kuretru/Programming-Learning/blob/master/PAT/Basic-Level/1038%20统计同成绩学生.cpp) | |
+| 1039 | [到底买不买](https://pintia.cn/problem-sets/994805260223102976/problems/994805283241443328) | 20 | [C++](https://github.com/kuretru/Programming-Learning/blob/master/PAT/Basic-Level/1039%20到底买不买.cpp) | |
+| 1040 | [有几个PAT](https://pintia.cn/problem-sets/994805260223102976/problems/994805282389999616) | 25 | [C++](https://github.com/kuretru/Programming-Learning/blob/master/PAT/Basic-Level/1040%20有几个PAT.cpp) | |
+| 1041 | [考试座位号](https://pintia.cn/problem-sets/994805260223102976/problems/994805281567916032) | 15 | [C++](https://github.com/kuretru/Programming-Learning/blob/master/PAT/Basic-Level/1041%20考试座位号.cpp) | |
+| 1042 | [字符统计](https://pintia.cn/problem-sets/994805260223102976/problems/994805280817135616) | 20 | [C++](https://github.com/kuretru/Programming-Learning/blob/master/PAT/Basic-Level/1042%20字符统计.cpp) | |
+| 1043 | [输出PATest](https://pintia.cn/problem-sets/994805260223102976/problems/994805280074743808) | 20 | [C++](https://github.com/kuretru/Programming-Learning/blob/master/PAT/Basic-Level/1043%20输出PATest.cpp) | |
+| 1044 | [火星数字](https://pintia.cn/problem-sets/994805260223102976/problems/994805279328157696) | 20 | [C++](https://github.com/kuretru/Programming-Learning/blob/master/PAT/Basic-Level/1044%20火星数字.cpp) | |
+| 1045 | [快速排序](https://pintia.cn/problem-sets/994805260223102976/problems/994805278589960192) | 25 | [C++](https://github.com/kuretru/Programming-Learning/blob/master/PAT/Basic-Level/1045%20快速排序.cpp) | |
+| 1046 | [划拳](https://pintia.cn/problem-sets/994805260223102976/problems/994805277847568384) | 15 | [C++](https://github.com/kuretru/Programming-Learning/blob/master/PAT/Basic-Level/1046%20划拳.cpp) | |
+| 1047 | [编程团体赛](https://pintia.cn/problem-sets/994805260223102976/problems/994805277163896832) | 20 | [C++](https://github.com/kuretru/Programming-Learning/blob/master/PAT/Basic-Level/1047%20编程团体赛.cpp) | |
+| 1048 | [数字加密](https://pintia.cn/problem-sets/994805260223102976/problems/994805276438282240) | 20 | [C++](https://github.com/kuretru/Programming-Learning/blob/master/PAT/Basic-Level/1048%20数字加密.cpp) | |
+| 1049 | [数列的片段和](https://pintia.cn/problem-sets/994805260223102976/problems/994805275792359424) | 20 | [C++](https://github.com/kuretru/Programming-Learning/blob/master/PAT/Basic-Level/1049%20数列的片段和.cpp) | |
+| 1050 | [螺旋矩阵](https://pintia.cn/problem-sets/994805260223102976/problems/994805275146436608) | 25 | [C++](https://github.com/kuretru/Programming-Learning/blob/master/PAT/Basic-Level/1050%20螺旋矩阵.cpp) | |
+| 1051 | [复数乘法](https://pintia.cn/problem-sets/994805260223102976/problems/994805274496319488) | 15 | [C++](https://github.com/kuretru/Programming-Learning/blob/master/PAT/Basic-Level/1051%20复数乘法.cpp) | |
+| 1052 | [卖个萌](https://pintia.cn/problem-sets/994805260223102976/problems/994805273883951104) | 20 | [C++](https://github.com/kuretru/Programming-Learning/blob/master/PAT/Basic-Level/1052%20卖个萌.cpp) | |
+| 1053 | [住房空置率](https://pintia.cn/problem-sets/994805260223102976/problems/994805273284165632) | 20 | [C++](https://github.com/kuretru/Programming-Learning/blob/master/PAT/Basic-Level/1053%20住房空置率.cpp) | |
+| 1054 | [求平均值](https://pintia.cn/problem-sets/994805260223102976/problems/994805272659214336) | 20 | [C++](https://github.com/kuretru/Programming-Learning/blob/master/PAT/Basic-Level/1054%20求平均值.cpp) | |
+| 1055 | [集体照](https://pintia.cn/problem-sets/994805260223102976/problems/994805272021680128) | 25 | [C++](https://github.com/kuretru/Programming-Learning/blob/master/PAT/Basic-Level/1055%20集体照.cpp) | |
+| 1056 | [组合数的和](https://pintia.cn/problem-sets/994805260223102976/problems/994805271455449088) | 15 | [C++](https://github.com/kuretru/Programming-Learning/blob/master/PAT/Basic-Level/1056%20组合数的和.cpp) | |
+| 1057 | [数零壹](https://pintia.cn/problem-sets/994805260223102976/problems/994805270914383872) | 20 | [C++](https://github.com/kuretru/Programming-Learning/blob/master/PAT/Basic-Level/1057%20数零壹.cpp) | |
+| 1058 | [选择题](https://pintia.cn/problem-sets/994805260223102976/problems/994805270356541440) | 20 | [C++](https://github.com/kuretru/Programming-Learning/blob/master/PAT/Basic-Level/1058%20选择题.cpp) | |
+| 1059 | [C语言竞赛](https://pintia.cn/problem-sets/994805260223102976/problems/994805269828059136) | 20 | [C++](https://github.com/kuretru/Programming-Learning/blob/master/PAT/Basic-Level/1059%20C语言竞赛.cpp) | |
+| 1060 | [爱丁顿数](https://pintia.cn/problem-sets/994805260223102976/problems/994805269312159744) | 25 | [C++](https://github.com/kuretru/Programming-Learning/blob/master/PAT/Basic-Level/1060%20爱丁顿数.cpp) | |
+| 1061 | [判断题](https://pintia.cn/problem-sets/994805260223102976/problems/994805268817231872) | 15 | [C++](https://github.com/kuretru/Programming-Learning/blob/master/PAT/Basic-Level/1061%20判断题.cpp) | |
+| 1062 | [最简分数](https://pintia.cn/problem-sets/994805260223102976/problems/994805268334886912) | 20 | [C++](https://github.com/kuretru/Programming-Learning/blob/master/PAT/Basic-Level/1062%20最简分数.cpp) | |
+| 1063 | [计算谱半径](https://pintia.cn/problem-sets/994805260223102976/problems/994805267860930560) | 20 | [C++](https://github.com/kuretru/Programming-Learning/blob/master/PAT/Basic-Level/1063%20计算谱半径.cpp) | |
+| 1064 | [朋友数](https://pintia.cn/problem-sets/994805260223102976/problems/994805267416334336) | 20 | [C++](https://github.com/kuretru/Programming-Learning/blob/master/PAT/Basic-Level/1064%20朋友数.cpp) | |
+| 1065 | [单身狗](https://pintia.cn/problem-sets/994805260223102976/problems/994805266942377984) | 25 | [C++](https://github.com/kuretru/Programming-Learning/blob/master/PAT/Basic-Level/1065%20单身狗.cpp) | |
+| 1066 | [图像过滤](https://pintia.cn/problem-sets/994805260223102976/problems/994805266514558976) | 15 | [C++](https://github.com/kuretru/Programming-Learning/blob/master/PAT/Basic-Level/1066%20图像过滤.cpp) | |
+| 1067 | [试密码](https://pintia.cn/problem-sets/994805260223102976/problems/994805266007048192) | 20 | [C++](https://github.com/kuretru/Programming-Learning/blob/master/PAT/Basic-Level/1067%20试密码.cpp) | |
+| 1068 | [万绿丛中一点红](https://pintia.cn/problem-sets/994805260223102976/problems/994805265579229184) | 20 | [C++](https://github.com/kuretru/Programming-Learning/blob/master/PAT/Basic-Level/1068%20万绿丛中一点红.cpp) | |
+| 1069 | [微博转发抽奖](https://pintia.cn/problem-sets/994805260223102976/problems/994805265159798784) | 20 | [C++](https://github.com/kuretru/Programming-Learning/blob/master/PAT/Basic-Level/1069%20微博转发抽奖.cpp) | |
+| 1070 | [结绳](https://pintia.cn/problem-sets/994805260223102976/problems/994805264706813952) | 25 | [C++](https://github.com/kuretru/Programming-Learning/blob/master/PAT/Basic-Level/1070%20结绳.cpp) | |
+| 1071 | [小赌怡情](https://pintia.cn/problem-sets/994805260223102976/problems/994805264312549376) | 15 | [C++](https://github.com/kuretru/Programming-Learning/blob/master/PAT/Basic-Level/1071%20小赌怡情.cpp) | |
+| 1072 | [开学寄语](https://pintia.cn/problem-sets/994805260223102976/problems/994805263964422144) | 20 | [C++](https://github.com/kuretru/Programming-Learning/blob/master/PAT/Basic-Level/1072%20开学寄语.cpp) | |
+| 1073 | [多选题常见计分法](https://pintia.cn/problem-sets/994805260223102976/problems/994805263624683520) | 20 | [C++](https://github.com/kuretru/Programming-Learning/blob/master/PAT/Basic-Level/1073%20多选题常见计分法.cpp) | |
+| 1074 | [宇宙无敌加法器](https://pintia.cn/problem-sets/994805260223102976/problems/994805263297527808) | 20 | [C++](https://github.com/kuretru/Programming-Learning/blob/master/PAT/Basic-Level/1074%20宇宙无敌加法器.cpp) | |
+| 1075 | [链表元素分类](https://pintia.cn/problem-sets/994805260223102976/problems/994805262953594880) | 25 | [C++](https://github.com/kuretru/Programming-Learning/blob/master/PAT/Basic-Level/1075%20链表元素分类.cpp) | |
+| 1076 | [Wifi密码](https://pintia.cn/problem-sets/994805260223102976/problems/994805262622244864) | 15 | [C++](https://github.com/kuretru/Programming-Learning/blob/master/PAT/Basic-Level/1076%20Wifi密码.cpp) | |
+| 1077 | [互评成绩计算](https://pintia.cn/problem-sets/994805260223102976/problems/994805262303477760) | 20 | [C++](https://github.com/kuretru/Programming-Learning/blob/master/PAT/Basic-Level/1077%20互评成绩计算.cpp) | |
+| 1078 | [字符串压缩与解压](https://pintia.cn/problem-sets/994805260223102976/problems/994805262018265088) | 20 | [C++](https://github.com/kuretru/Programming-Learning/blob/master/PAT/Basic-Level/1078%20字符串压缩与解压.cpp) | |
+| 1079 | [延迟的回文数](https://pintia.cn/problem-sets/994805260223102976/problems/994805261754023936) | 20 | [C++](https://github.com/kuretru/Programming-Learning/blob/master/PAT/Basic-Level/1079%20延迟的回文数.cpp) | |
+| 1080 | [MOOC期终成绩](https://pintia.cn/problem-sets/994805260223102976/problems/994805261493977088) | 25 | [C++](https://github.com/kuretru/Programming-Learning/blob/master/PAT/Basic-Level/1080%20MOOC期终成绩.cpp) | |
+| 1081 | [检查密码](https://pintia.cn/problem-sets/994805260223102976/problems/994805261217153024) | 15 | [C++](https://github.com/kuretru/Programming-Learning/blob/master/PAT/Basic-Level/1081%20检查密码.cpp) | |
+| 1082 | [射击比赛](https://pintia.cn/problem-sets/994805260223102976/problems/994805260990660608) | 20 | [C++](https://github.com/kuretru/Programming-Learning/blob/master/PAT/Basic-Level/1082%20射击比赛.cpp) | |
+| 1083 | [是否存在相等的差](https://pintia.cn/problem-sets/994805260223102976/problems/994805260780945408) | 20 | [C++](https://github.com/kuretru/Programming-Learning/blob/master/PAT/Basic-Level/1083%20是否存在相等的差.cpp) | |
+| 1084 | [外观数列](https://pintia.cn/problem-sets/994805260223102976/problems/994805260583813120) | 20 | [C++](https://github.com/kuretru/Programming-Learning/blob/master/PAT/Basic-Level/1084%20外观数列.cpp) | |
+| 1085 | [PAT单位排行](https://pintia.cn/problem-sets/994805260223102976/problems/994805260353126400) | 25 | [C++](https://github.com/kuretru/Programming-Learning/blob/master/PAT/Basic-Level/1085%20PAT单位排行.cpp) | |
+| 1086 | [就不告诉你](https://pintia.cn/problem-sets/994805260223102976/problems/1038429065476579328) | 15 | [C++](https://github.com/kuretru/Programming-Learning/blob/master/PAT/Basic-Level/1086%20就不告诉你.cpp) | |
+| 1087 | [有多少不同的值](https://pintia.cn/problem-sets/994805260223102976/problems/1038429191091781632) | 20 | [C++](https://github.com/kuretru/Programming-Learning/blob/master/PAT/Basic-Level/1087%20有多少不同的值.cpp) | |
+| 1088 | [三人行](https://pintia.cn/problem-sets/994805260223102976/problems/1038429286185074688) | 20 | [C++](https://github.com/kuretru/Programming-Learning/blob/master/PAT/Basic-Level/1088%20三人行.cpp) | |
+| 1089 | [狼人杀-简单版](https://pintia.cn/problem-sets/994805260223102976/problems/1038429385296453632) | 20 | [C++](https://github.com/kuretru/Programming-Learning/blob/master/PAT/Basic-Level/1089%20狼人杀-简单版.cpp) | |
+| 1090 | [危险品装箱](https://pintia.cn/problem-sets/994805260223102976/problems/1038429484026175488) | 25 | [C++](https://github.com/kuretru/Programming-Learning/blob/master/PAT/Basic-Level/1090%20危险品装箱.cpp) | |
+| 1091 | [N-自守数](https://pintia.cn/problem-sets/994805260223102976/problems/1071785664454127616) | 15 | [C++](https://github.com/kuretru/Programming-Learning/blob/master/PAT/Basic-Level/1091%20N-自守数.cpp) | |
+| 1092 | [最好吃的月饼](https://pintia.cn/problem-sets/994805260223102976/problems/1071785779399028736) | 20 | [C++](https://github.com/kuretru/Programming-Learning/blob/master/PAT/Basic-Level/1092%20最好吃的月饼.cpp) | |
+| 1093 | [字符串A+B](https://pintia.cn/problem-sets/994805260223102976/problems/1071785884776722432) | 20 | [C++](https://github.com/kuretru/Programming-Learning/blob/master/PAT/Basic-Level/1093%20字符串A+B.cpp) | |
+| 1094 | [谷歌的招聘](https://pintia.cn/problem-sets/994805260223102976/problems/1071785997033074688) | 20 | [C++](https://github.com/kuretru/Programming-Learning/blob/master/PAT/Basic-Level/1094%20谷歌的招聘.cpp) | |
+| 1095 | [解码PAT准考证](https://pintia.cn/problem-sets/994805260223102976/problems/1071786104348536832) | 25 | [C++](https://github.com/kuretru/Programming-Learning/blob/master/PAT/Basic-Level/1095%20解码PAT准考证.cpp) | |
