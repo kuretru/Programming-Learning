@@ -3,11 +3,6 @@ import java.util.Set;
 
 // @lc code=start
 class Solution {
-
-    public static void main(String[] args) {
-        new Solution().permutation("abcd");
-    }
-
     public String[] permutation(String s) {
         Set<String> result = new HashSet<>();
         char[] chars = s.toCharArray();
@@ -32,6 +27,5 @@ class Solution {
         chars[x] = chars[y];
         chars[y] = tmp;
     }
-
 }
 // @lc code=end
