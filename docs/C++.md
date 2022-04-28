@@ -22,6 +22,20 @@
 * 数组最大值：`*std::max_element(data.begin(), data.end())` in \<algorithm\>
 * 迭代器索引：`std::distance(data.begin(), iter)`
 
+### 结构体
+
+```c++
+struct node {
+    node* prev = nullptr;
+    node* next = nullptr;
+    int key = 0;
+    int value = 0;
+    node(): {}
+    node(node* prev, node* next, int key, int value):
+        prev(prev), next(next), key(key), value(value) {}
+};
+```
+
 ### 重写运算符
 
 ```c++
