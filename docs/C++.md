@@ -55,6 +55,17 @@ student operator+(const student &y)
     s.grade = grade + y.grade;
     return s;
 }
+
+class Solution {
+  public:
+    vector<Interval> merge(vector<Interval>& intervals) {
+        std::sort(intervals.begin(), intervals.end(), compare);
+    }
+  private:
+    static bool compare(const Interval& x, const Interval& y) {
+        return x.start < y.start;
+    }
+};
 ```
 
 ### 函数指针
