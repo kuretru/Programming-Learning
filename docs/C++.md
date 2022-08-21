@@ -124,6 +124,13 @@ sort(data);
 
 * 清空队列：`deque.clear()`
 
+#### priority_queue 优先队列
+
+* 构造：`std::priority_queue<int, vector<int>, std::greater<int>> heap`，`std::less<int>`是小根堆
+* 入队：`void heap.push(ELEMENT)`
+* 出队：`void heap.pop()`
+* 堆顶：`ELEMENT = heap.top()`
+
 #### set 红黑树
 
 * 存放结构体时需要重载`<`运算符
