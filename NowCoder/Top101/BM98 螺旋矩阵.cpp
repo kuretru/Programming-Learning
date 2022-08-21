@@ -1,3 +1,5 @@
+#include <vector>
+
 const int direction[4][2] = {{0, 1}, {1, 0}, {0, -1}, {-1, 0}};
 const int difference[4][4] = {{1, 0, 0, 0}, {0, 0, 0, -1}, {0, -1, 0, 0}, {0, 0, 1, 0}};
 
